@@ -1,0 +1,13 @@
+.label{
+    -fx-padding: 5px;
+    -fx-border-insets: 5px;
+    -fx-background-insets: 5px;
+}
+.button{
+    -fx-padding: 5px;
+
+    -fx-background-insets: 1px;
+}
+#lblBold{
+  -fx-font-weight: bold;
+}

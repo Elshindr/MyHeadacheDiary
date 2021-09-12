@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="590.0" prefWidth="858.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+    <VBox.margin>
+        <Insets>
+            <bottom>210</bottom>
+            <left>10</left>
+            <top>10</top>
+        </Insets>
+    </VBox.margin>
+    <children>
+      <MenuBar prefHeight="26.0" prefWidth="642.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <TabPane prefHeight="570.0" prefWidth="750.0" stylesheets="@SceneBuilder_Migraine.css" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab closable="false" text="Add Migraine">
+               <content>
+                  <GridPane accessibleText="TabAddGrid" alignment="CENTER" prefHeight="383.0" prefWidth="150.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="482.6000122070312" minWidth="10.0" prefWidth="449.6" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="10.0" minWidth="0.0" prefWidth="10.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="404.0" minWidth="10.0" prefWidth="287.2000122070312" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints maxHeight="162.3999801635742" minHeight="10.0" prefHeight="87.20000610351562" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="147.5999801635742" minHeight="10.0" prefHeight="105.59999389648439" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="306.40000000000003" minHeight="10.0" prefHeight="210.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="203.19999389648441" minHeight="0.0" prefHeight="131.60000000000002" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <GridPane accessibleText="DateGrid" prefHeight="82.0" prefWidth="178.0">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="117.20000228881835" minWidth="24.79998779296875" prefWidth="117.20000228881835" />
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="321.5999755859375" minWidth="10.0" prefWidth="126.79999771118165" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="321.5999755859375" minWidth="10.0" prefWidth="196.00002441406252" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints maxHeight="23.19998779296875" minHeight="10.0" prefHeight="23.19998779296875" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="22.4" minHeight="10.0" prefHeight="17.60001220703125" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="34.39999999999999" minHeight="10.0" prefHeight="34.39999999999999" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Label id="lblBold" text="Date" GridPane.valignment="TOP">
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                              </Label>
+                              <RadioButton mnemonicParsing="false" text="Today" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <RadioButton mnemonicParsing="false" text=" " GridPane.columnIndex="1" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                                 <graphic>
+                                    <DatePicker prefHeight="26.0" prefWidth="93.0" />
+                                 </graphic>
+                                 <GridPane.margin>
+                                    <Insets />
+                                 </GridPane.margin>
+                              </RadioButton>
+                           </children>
+                        </GridPane>
+                        <GridPane GridPane.rowIndex="1">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints maxHeight="41.59999389648438" minHeight="10.0" prefHeight="23.200000000000003" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="71.2" minHeight="10.0" prefHeight="33.59999389648438" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="74.80000610351564" minHeight="10.0" prefHeight="74.80000610351564" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Label id="lblBold" text="Duration" GridPane.valignment="TOP" />
+                              <Label text="Start" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                              <Label text="End" GridPane.halignment="RIGHT" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+                              <Spinner prefWidth="80.0" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                              <Spinner prefWidth="80.0" GridPane.columnIndex="1" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+                              <Label text="Hour" GridPane.columnIndex="1" />
+                              <Label text="Minute" GridPane.columnIndex="2" />
+                              <Spinner prefWidth="80.0" GridPane.columnIndex="2" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                                 <GridPane.margin>
+                                    <Insets />
+                                 </GridPane.margin>
+                              </Spinner>
+                              <Spinner prefWidth="80.0" GridPane.columnIndex="2" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                                 <GridPane.margin>
+                                    <Insets />
+                                 </GridPane.margin>
+                              </Spinner>
+                           </children>
+                        </GridPane>
+                        <GridPane GridPane.rowIndex="2">
+                          <columnConstraints>
+                            <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" maxWidth="144.9999771118164" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="100.0" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" maxWidth="100.0" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="100.0" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints maxHeight="45.6000244140625" minHeight="10.0" prefHeight="28.9999755859375" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="84.59999198913575" minHeight="10.0" prefHeight="31.799981689453126" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="83.40001220703127" minHeight="10.0" prefHeight="38.59999389648437" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="80.99998779296874" minHeight="10.0" prefHeight="35.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="100.799951171875" minHeight="10.0" prefHeight="79.80000000000001" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <ChoiceBox prefHeight="27.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <Label text="Severity" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                              <Label text="Dizziness" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+                              <Label id="lblBold" text="Symptom" GridPane.halignment="LEFT" GridPane.valignment="TOP" />
+                              <ChoiceBox layoutX="91.0" layoutY="52.0" prefHeight="27.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <Label text="Side Headache" GridPane.columnIndex="2" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+                              <Label text="Nausea" GridPane.columnIndex="2" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                              <ChoiceBox prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                              <ChoiceBox prefHeight="27.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                              <ChoiceBox layoutX="104.0" layoutY="88.0" prefHeight="27.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                              <Label text="Aura" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+                              <Label text="Other" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+                              <AnchorPane prefHeight="70.0" prefWidth="300.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                                 <children>
+                                    <TextArea layoutY="9.0" prefHeight="34.0" prefWidth="300.0" />
+                                 </children>
+                              </AnchorPane>
+                           </children>
+                        </GridPane>
+                        <GridPane GridPane.rowIndex="3">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" />
+                            <ColumnConstraints halignment="LEFT" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints halignment="LEFT" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints maxHeight="34.39999904632568" minHeight="10.0" prefHeight="34.39999904632568" valignment="CENTER" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="68.79996337890626" minHeight="10.0" prefHeight="33.60001220703125" valignment="CENTER" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="68.79996337890626" minHeight="10.0" prefHeight="41.59998779296875" valignment="CENTER" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="28.00003662109374" minHeight="3.662109374147349E-5" prefHeight="3.662109374147349E-5" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Label id="lblBold" text="Hypersensibility" GridPane.valignment="TOP" />
+                              <CheckBox mnemonicParsing="false" text="Light" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <CheckBox mnemonicParsing="false" text="Sound" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                              <CheckBox mnemonicParsing="false" text="Movement" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <CheckBox mnemonicParsing="false" text="Smell" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                           </children>
+                        </GridPane>
+                        <GridPane GridPane.columnIndex="2">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="117.79998779296875" minWidth="10.0" prefWidth="117.79998779296875" />
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="91.39996337890625" minWidth="10.0" prefWidth="84.60004882812498" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="94.199951171875" minWidth="10.0" prefWidth="90.199951171875" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Label id="lblBold" text="Potentials Triggers" GridPane.valignment="TOP" />
+                              <CheckBox mnemonicParsing="false" text="Sound" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <CheckBox mnemonicParsing="false" text="Light" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <CheckBox layoutX="155.0" layoutY="44.0" mnemonicParsing="false" text="Sleep" GridPane.rowIndex="2" />
+                              <CheckBox layoutX="10.0" layoutY="72.0" mnemonicParsing="false" text="Lake of Sleep" GridPane.rowIndex="1" />
+                              <CheckBox layoutX="10.0" layoutY="44.0" mnemonicParsing="false" text="Period" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                              <CheckBox layoutX="212.0" layoutY="44.0" mnemonicParsing="false" text=" " GridPane.columnIndex="2" GridPane.rowIndex="2">
+                                 <graphic>
+                                    <TextField prefHeight="25.0" prefWidth="62.0" />
+                                 </graphic>
+                                 <GridPane.margin>
+                                    <Insets right="5.0" />
+                                 </GridPane.margin>
+                              </CheckBox>
+                           </children>
+                        </GridPane>
+                        <Line endX="100.67868041992188" endY="-258.1377868652344" startX="102.09284973144531" startY="426.8929138183594" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                        <GridPane GridPane.columnIndex="2" GridPane.rowIndex="2">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                            <ColumnConstraints halignment="LEFT" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Spinner prefWidth="50.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                              <Label text="Medication" GridPane.valignment="TOP">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font>
+                              </Label>
+                              <CheckBox mnemonicParsing="false" text="Paracétamol" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <CheckBox mnemonicParsing="false" text="Ibuprofène" GridPane.columnIndex="1" />
+                              <Spinner prefWidth="50.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                              <CheckBox mnemonicParsing="false" text="Zolmitriptan" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <Spinner layoutX="253.0" layoutY="76.0" prefWidth="50.0" GridPane.columnIndex="2" />
+                              <Label text="mg" GridPane.columnIndex="3" GridPane.halignment="LEFT" />
+                              <Spinner layoutX="212.0" layoutY="128.0" prefWidth="50.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                              <CheckBox mnemonicParsing="false" text=" " GridPane.columnIndex="1" GridPane.rowIndex="3">
+                                 <graphic>
+                                    <TextField prefWidth="70.0" />
+                                 </graphic>
+                              </CheckBox>
+                           </children>
+                        </GridPane>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </GridPane>
+               </content>
+          </Tab>
+          <Tab closable="false" text="Diary">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label text="weekend? jour de la semain" />
+                        <Label layoutX="74.0" layoutY="54.0" text="duree total" />
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+            <Tab closable="false" text="Statistics">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Line endX="97.17164611816406" endY="704.490234375" startX="99.29287719726562" startY="-75.6026611328125" />
+                     </children></AnchorPane>
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</VBox>
