@@ -1,23 +1,19 @@
 package com.example.myheadachediary;
 
 import javafx.collections.FXCollections;
-import javafx.collections.ObservableArray;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
-import java.time.temporal.Temporal;
 import java.util.*;
 
-public class HelloController {
+public class HeadacheDiaryController {
     // Create observable list with string variable for choiceboxes
     String[] tabSymp = {"None","Mild","Moderate","Severe","Vertigo","Vomiting","Left", "Right", "Both"};
     ObservableList<String> obsDiz = FXCollections.observableArrayList(tabSymp[0],tabSymp[1],tabSymp[2], tabSymp[4]);
@@ -26,7 +22,7 @@ public class HelloController {
     ObservableList<String> obsSevere = FXCollections.observableArrayList( tabSymp[1],tabSymp[2],tabSymp[3]);
     ObservableList<String> obsSide = FXCollections.observableArrayList(tabSymp[6], tabSymp[7], tabSymp[8]);
 
-    // Variables for Day and duration
+    // Variables for Days and Duration
     @FXML
     private DatePicker dayStart;
     @FXML
@@ -55,7 +51,6 @@ public class HelloController {
     private ChoiceBox cobSideHeadache;
     @FXML
     private TextArea txtAOther;
-
 
     // Hypersensibility variables
     @FXML
@@ -110,6 +105,7 @@ public class HelloController {
     @FXML
     private Button btnAuto;
 
+    //
     // Variables for TabDiary
     @FXML
     private TableView tabHeadache;
@@ -173,7 +169,8 @@ public class HelloController {
         spinStartMin.setEditable(true);
         spinEndMin.setEditable(true);
 
-        // Setting cobChoice Value;
+        // Symptom init
+        // Setting cobChoice Value ;
         cobDizziness.setItems(obsDiz);
         cobDizziness.setValue(tabSymp[0]);
 
@@ -227,7 +224,7 @@ public class HelloController {
         sideHeadache = cobSideHeadache.getValue().toString();
         otherSymp = txtAOther.getText();
 
-        // Get values from  hypersensibility
+        // Get values from hypersensibility
         hypersensibility = "";
         if(chkHypLight.isSelected()){
             hypersensibility += chkHypLight.getText() + ",";

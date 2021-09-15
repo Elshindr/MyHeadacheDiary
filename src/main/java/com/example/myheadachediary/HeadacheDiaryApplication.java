@@ -13,22 +13,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class HelloApplication extends Application {
-    //private List<String> obsSymptom = new ArrayList<String>();
-    ObservableList<String> obsSymp = FXCollections.observableArrayList("Arnab", "Andrew", "Ankit", "None");
-    @FXML
-    private ChoiceBox cobSeverity ;
+public class HeadacheDiaryApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("SceneBuilder_Migraine.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(HeadacheDiaryApplication.class.getResource("SceneBuilder_Migraine.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        String st[] = { "Arnab", "Andrew", "Ankit", "None" };
-
-        // create a choiceBox
-        ChoiceBox c = new ChoiceBox(FXCollections.observableArrayList(st));
-
-        // string array
-        //String st[] = { "Severe", "Fort", "Moderate", "Gerable" };
 
         stage.setTitle("MyHeadacheDiary!");
         stage.setScene(scene);
