@@ -6,6 +6,7 @@ module com.example.myheadachediary {
     requires com.dlsc.formsfx;
     requires org.kordamp.bootstrapfx.core;
     requires javafx.graphics;
+    requires java.desktop;
 
     opens com.example.myheadachediary to javafx.fxml;
     exports com.example.myheadachediary;

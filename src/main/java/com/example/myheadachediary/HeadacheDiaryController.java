@@ -6,14 +6,20 @@ import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 
+import java.io.IOException;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
-import java.time.temporal.ChronoUnit;
 import java.util.*;
 
 public class HeadacheDiaryController {
+    // Serialisable list
+    @FXML
+    private List<Headache> lstDiary = new ArrayList<Headache>();
+
+    // Create a empty ObservableList for Record all FileCaract object
+    ObservableList<Headache> obsLstHd =  FXCollections.observableArrayList();
     // Create observable list with string variable for choiceboxes
     String[] tabSymp = {"None","Mild","Moderate","Severe","Vertigo","Vomiting","Left", "Right", "Both"};
     ObservableList<String> obsDiz = FXCollections.observableArrayList(tabSymp[0],tabSymp[1],tabSymp[2], tabSymp[4]);
@@ -22,12 +28,11 @@ public class HeadacheDiaryController {
     ObservableList<String> obsSevere = FXCollections.observableArrayList( tabSymp[1],tabSymp[2],tabSymp[3]);
     ObservableList<String> obsSide = FXCollections.observableArrayList(tabSymp[6], tabSymp[7], tabSymp[8]);
 
-    // Variables for Days and Duration
+    // Days and Duration Variables
     @FXML
     private DatePicker dayStart;
     @FXML
     private DatePicker dayEnd;
-
     @FXML
     private Spinner spinStartHour;
     @FXML
@@ -203,18 +208,43 @@ public class HeadacheDiaryController {
         spinMedPara.setEditable(true);
         spinMedTrip.setEditable(true);
         spinMedOther.setEditable(true);
+
+
+        //Tab Diary Init
+        // Set TabView
+        // Defines how to fill data for each cell with value from get property of Object.
+        colDay.setCellValueFactory(new PropertyValueFactory<>("date"));
+        colDuration.setCellValueFactory(new PropertyValueFactory<>("duration"));
+        colAura.setCellValueFactory(new PropertyValueFactory<>("aura"));
+        colSeverity.setCellValueFactory(new PropertyValueFactory<>("severity"));
+        colNausea.setCellValueFactory(new PropertyValueFactory<>("nausea"));
+        colDizziness.setCellValueFactory(new PropertyValueFactory<>("dizziness"));
+        colSide.setCellValueFactory(new PropertyValueFactory<>("SideHeadache"));
+        colOtherSymp.setCellValueFactory(new PropertyValueFactory<>("OtherSymp"));
+        colHyper.setCellValueFactory(new PropertyValueFactory<>("hypersensibility"));
+        colTriggers.setCellValueFactory(new PropertyValueFactory<>("triggers"));
+        colMed.setCellValueFactory(new PropertyValueFactory<>("medication"));
+
+        try {
+            Object diary = SerializeToXML.loadFromXML();
+            if(diary != null){
+                lstDiary = (List<Headache>)diary;
+                obsLstHd.addAll(lstDiary);
+
+                // Display row data in TabView
+                tabHeadache.setItems(obsLstHd);
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     @FXML
     protected void onClickAddHeadache() {
         // Get Dates and Duration
-        String startDay = getDateHeadache(dayStart.getValue(), (Integer) spinStartHour.getValue(), (Integer) spinStartHour.getValue());
-        String endDay = getDateHeadache(dayEnd.getValue(), (Integer) spinEndHour.getValue(), (Integer) spinEndHour.getValue());
-
-        //Duration
-        //String startDay = dtfStart.format(todayStart);
-        //String endDay = dtfEnd.format(todayEnd) ;
-        //long duration = ChronoUnit.MINUTES.between(todayStart, todayEnd);
+        String startDay = getDateHeadache(dayStart.getValue(), (Integer) spinStartHour.getValue(), (Integer) spinStartMin.getValue());
+        String endDay = getDateHeadache(dayEnd.getValue(), (Integer) spinEndHour.getValue(), (Integer) spinEndMin.getValue());
 
         //Get values from choiceBox
         severity = cobSeverity.getValue().toString();
@@ -279,35 +309,35 @@ public class HeadacheDiaryController {
 
 
         // Diary Tab
-        // Set TabView
-        // Defines how to fill data for each cell with value from get property of Object.
-        colDay.setCellValueFactory(new PropertyValueFactory<>("date"));
-        colDuration.setCellValueFactory(new PropertyValueFactory<>("duration"));
-        colAura.setCellValueFactory(new PropertyValueFactory<>("aura"));
-        colSeverity.setCellValueFactory(new PropertyValueFactory<>("severity"));
-        colNausea.setCellValueFactory(new PropertyValueFactory<>("nausea"));
-        colDizziness.setCellValueFactory(new PropertyValueFactory<>("dizziness"));
-        colSide.setCellValueFactory(new PropertyValueFactory<>("SideHeadache"));
-        colOtherSymp.setCellValueFactory(new PropertyValueFactory<>("OtherSymp"));
-        colHyper.setCellValueFactory(new PropertyValueFactory<>("hypersensibility"));
-        colTriggers.setCellValueFactory(new PropertyValueFactory<>("triggers"));
-        colMed.setCellValueFactory(new PropertyValueFactory<>("medication"));
+
 
         // If no row to display
         tabHeadache.setPlaceholder(new Label("No files to display"));
         // First Line selected
         tabHeadache.getSelectionModel().selectFirst();
 
-        // Create a empty ObservableList for Record all FileCaract object
-        ObservableList<Headache> obsLstHd =  FXCollections.observableArrayList();
+
 
         Headache aHeadache = new Headache(startDay, endDay, severity, dizziness, aura, nausea, sideHeadache, otherSymp, hypersensibility, triggers, medication);
         obsLstHd.add(aHeadache);
+
+        System.out.println("merde");
+        lstDiary.add(aHeadache);
         //
         // Display row data in TabView
         tabHeadache.setItems(obsLstHd);
 
+
+        try {
+            SerializeToXML.saveToXML(lstDiary);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+
     }
+
+
 
     // Method to get the selected date and time formated
     String getDateHeadache(LocalDate day, int hours, int minutes){

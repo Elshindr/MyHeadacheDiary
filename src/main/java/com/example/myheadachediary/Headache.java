@@ -111,7 +111,7 @@ public class Headache {
     private int medOther;
 
     private String medication;
-
+public Headache(){}
     public Headache(String date, String duration, String severity, String dizziness, String aura, String nausea, String sideHeadache, String otherSymp, String hypersensibility, String triggers, String medication) {
         this.date = date;
         this.duration = duration;
