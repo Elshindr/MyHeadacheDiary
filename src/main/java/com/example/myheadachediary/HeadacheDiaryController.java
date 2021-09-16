@@ -13,6 +13,7 @@ import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
 
+
 public class HeadacheDiaryController {
     // Serialisable list
     @FXML
@@ -20,6 +21,7 @@ public class HeadacheDiaryController {
 
     // Create a empty ObservableList for Record all FileCaract object
     ObservableList<Headache> obsLstHd =  FXCollections.observableArrayList();
+
     // Create observable list with string variable for choiceboxes
     String[] tabSymp = {"None","Mild","Moderate","Severe","Vertigo","Vomiting","Left", "Right", "Both"};
     ObservableList<String> obsDiz = FXCollections.observableArrayList(tabSymp[0],tabSymp[1],tabSymp[2], tabSymp[4]);
@@ -94,7 +96,6 @@ public class HeadacheDiaryController {
     private CheckBox chkMedOther;
     @FXML
     private TextField txtMedOther;
-
     @FXML
     private Spinner spinMedIbup;
     @FXML
@@ -110,6 +111,9 @@ public class HeadacheDiaryController {
     @FXML
     private Button btnAuto;
 
+    // Labels issues
+    @FXML
+    private Label lblIssues;
     //
     // Variables for TabDiary
     @FXML
@@ -137,7 +141,6 @@ public class HeadacheDiaryController {
     @FXML
     private TableColumn colMed;
 
-
     // Local variables for create Headache objet
     String severity;
     String dizziness;
@@ -151,30 +154,48 @@ public class HeadacheDiaryController {
 
     @FXML
     private void initialize(){
+        // Disable btn
         //btnAddHeadache.setDisable(true);
 
         // Day Init
+        dayInitialize();
+
+        // Symptom Init
+        symptomInitialize();
+
+        // Medication Init
+        medicationInitialize();
+
+        // Tab Diary Init and load diary
+        tabDiaryInitialize();
+    }
+
+    private void dayInitialize(){
         // Setting the current date
         dayStart.setValue(LocalDate.now());
         dayEnd.setValue(LocalDate.now());
+        LocalTime ltInitSpinners = LocalTime.now();
 
         // Value factory for Minutes and Hours
-        SpinnerValueFactory<Integer> valueStartHours = new SpinnerValueFactory.IntegerSpinnerValueFactory(1, 24, 1);
-        SpinnerValueFactory<Integer> valueStartMin = new SpinnerValueFactory.IntegerSpinnerValueFactory(0, 59, 0);
-        SpinnerValueFactory<Integer> valueEndHours = new SpinnerValueFactory.IntegerSpinnerValueFactory(1, 24, 1);
-        SpinnerValueFactory<Integer> valueEndMin = new SpinnerValueFactory.IntegerSpinnerValueFactory(0, 59, 0);
+        SpinnerValueFactory<Integer> valueStartHours = new SpinnerValueFactory.IntegerSpinnerValueFactory(1, 24, ltInitSpinners.getHour());
+        SpinnerValueFactory<Integer> valueStartMin = new SpinnerValueFactory.IntegerSpinnerValueFactory(0, 59, ltInitSpinners.getMinute());
+        SpinnerValueFactory<Integer> valueEndHours = new SpinnerValueFactory.IntegerSpinnerValueFactory(1, 24, ltInitSpinners.getHour());
+        SpinnerValueFactory<Integer> valueEndMin = new SpinnerValueFactory.IntegerSpinnerValueFactory(0, 59, ltInitSpinners.getMinute());
         valueEndMin.increment(5);
+
         spinStartHour.setValueFactory(valueStartHours);
         spinEndHour.setValueFactory(valueEndHours);
         spinStartMin.setValueFactory(valueStartMin);
         spinEndMin.setValueFactory(valueEndMin);
+
         // Setting the spinner editable
         spinStartHour.setEditable(true);
         spinEndHour.setEditable(true);
         spinStartMin.setEditable(true);
         spinEndMin.setEditable(true);
+    }
 
-        // Symptom init
+    private void symptomInitialize(){
         // Setting cobChoice Value ;
         cobDizziness.setItems(obsDiz);
         cobDizziness.setValue(tabSymp[0]);
@@ -190,9 +211,9 @@ public class HeadacheDiaryController {
 
         cobSideHeadache.setItems(obsSide);
         cobSideHeadache.setValue(tabSymp[6]);
+    }
 
-
-        // Medication Init
+    private void medicationInitialize(){
         // Value factory for Minutes and Hours
         SpinnerValueFactory<Integer> valueIbup = new SpinnerValueFactory.IntegerSpinnerValueFactory(0, 1000, 0);
         SpinnerValueFactory<Integer> valuePara = new SpinnerValueFactory.IntegerSpinnerValueFactory(0, 1000, 0);
@@ -208,9 +229,9 @@ public class HeadacheDiaryController {
         spinMedPara.setEditable(true);
         spinMedTrip.setEditable(true);
         spinMedOther.setEditable(true);
+    }
 
-
-        //Tab Diary Init
+    private void tabDiaryInitialize(){
         // Set TabView
         // Defines how to fill data for each cell with value from get property of Object.
         colDay.setCellValueFactory(new PropertyValueFactory<>("date"));
@@ -225,8 +246,10 @@ public class HeadacheDiaryController {
         colTriggers.setCellValueFactory(new PropertyValueFactory<>("triggers"));
         colMed.setCellValueFactory(new PropertyValueFactory<>("medication"));
 
+        // Load data from XML file
         try {
             Object diary = SerializeToXML.loadFromXML();
+
             if(diary != null){
                 lstDiary = (List<Headache>)diary;
                 obsLstHd.addAll(lstDiary);
@@ -240,11 +263,100 @@ public class HeadacheDiaryController {
         }
     }
 
+
+    // Fill form with lastest Headache
+    @FXML
+    protected void onClickFillLastestSettings(){
+      Headache anHeadache =  obsLstHd.get(obsLstHd.size() - 1);
+
+      //Set values from choiceBox
+      cobSeverity.setValue(anHeadache.getSeverity());
+      cobAura.setValue(anHeadache.getAura());
+      cobNausea.setValue(anHeadache.getNausea());
+      cobDizziness.setValue(anHeadache.getDizziness());
+      cobSideHeadache.setValue(anHeadache.getSideHeadache());
+      txtAOther.setText(anHeadache.getOtherSymp());
+
+        // St values from hypersensibility
+        hypersensibility = anHeadache.getHypersensibility();
+
+        if(hypersensibility.contains("Light")){
+            chkHypLight.setSelected(true);
+        }
+        if(hypersensibility.contains("Sound")){
+            chkHypSound.setSelected(true);
+        }
+        if(hypersensibility.contains("Smell")){
+            chkHypSmell.setSelected(true);
+        }
+        if(hypersensibility.contains("Movement")){
+            chkHypMovement.setSelected(true);
+        }
+
+        // Get values from potentials Triggers
+        triggers = anHeadache.getTriggers();
+
+        if(triggers.contains("Light")){
+            chkTrigLight.setSelected(true);
+        }
+        if(triggers.contains("Sound")){
+            chkTrigSound.setSelected(true);
+        }
+        if(triggers.contains("Lake")){
+            chkTrigLake.setSelected(true);
+        }
+        if(triggers.contains("Period")){
+            chkTrigPeriod.setSelected(true);
+        }
+        if(triggers.contains("Sleep")){
+            chkTrigSleep.setSelected(true);
+        }
+        triggers = triggers.replace(",", "").replace("Light", "").replace("Sound", "").replace("Lake", "").replace("Period", "").replace("Sleep", "");
+        if(triggers != ""){
+            chkTrigOther.setSelected(true);
+            txtTrigOther.setText(triggers) ;
+        }
+
+        // Get values from medication
+        medication = anHeadache.getMedication();
+        if(medication.contains("Ibuprofen")){
+            chkMedIbup.setSelected(true);
+        }
+        if(medication.contains("Paracetamol")){
+            chkMedPara.setSelected(true);
+        }
+        if(medication.contains("Triptan")){
+            chkMedTrip.setSelected(true);
+        }
+        medication = medication.replace(",", "").replace("Ibuprofen", "").replace("Paracetamol", "").replace("Triptan", "");
+        if(medication != ""){
+            chkMedOther.setSelected(true);
+            txtMedOther.setText(medication);
+        }
+
+    }
+
     @FXML
     protected void onClickAddHeadache() {
+
+        // Add Headache Tab
         // Get Dates and Duration
-        String startDay = getDateHeadache(dayStart.getValue(), (Integer) spinStartHour.getValue(), (Integer) spinStartMin.getValue());
-        String endDay = getDateHeadache(dayEnd.getValue(), (Integer) spinEndHour.getValue(), (Integer) spinEndMin.getValue());
+        String startDay = "";
+        String endDay = "";
+
+        LocalDateTime startDate = getDateHeadache(dayStart.getValue(), (Integer) spinStartHour.getValue(), (Integer) spinStartMin.getValue());
+        LocalDateTime endDate = getDateHeadache(dayEnd.getValue(), (Integer) spinEndHour.getValue(), (Integer) spinEndMin.getValue());
+
+        if(startDate.compareTo(endDate) > 0) {
+            btnAddHeadache.setDisable(true);
+            lblIssues.setText("Ending date is recent than Starting date");
+        }
+        else{
+           btnAddHeadache.setDisable(false);
+           DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd-MM-yyy HH:mm");
+           startDay = dtf.format(startDate);
+           endDay = dtf.format(endDate);
+        }
 
         //Get values from choiceBox
         severity = cobSeverity.getValue().toString();
@@ -305,23 +417,15 @@ public class HeadacheDiaryController {
             medication += txtMedOther.getText() + ": " + spinMedOther.getValue();
         }
 
-
-
-
         // Diary Tab
-
-
         // If no row to display
         tabHeadache.setPlaceholder(new Label("No files to display"));
         // First Line selected
         tabHeadache.getSelectionModel().selectFirst();
 
-
-
         Headache aHeadache = new Headache(startDay, endDay, severity, dizziness, aura, nausea, sideHeadache, otherSymp, hypersensibility, triggers, medication);
         obsLstHd.add(aHeadache);
 
-        System.out.println("merde");
         lstDiary.add(aHeadache);
         //
         // Display row data in TabView
@@ -338,15 +442,14 @@ public class HeadacheDiaryController {
     }
 
 
-
     // Method to get the selected date and time formated
-    String getDateHeadache(LocalDate day, int hours, int minutes){
+    private LocalDateTime  getDateHeadache(LocalDate day, int hours, int minutes){
 
-        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd-MM-yyy HH:mm");
+
         LocalTime time = LocalTime.of(hours, minutes);
         LocalDateTime localDate = LocalDateTime.of(day,time);
 
-       return dtf.format(localDate);
+       return localDate;
 }
 
 }

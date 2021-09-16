@@ -5,9 +5,14 @@
 }
 .button{
     -fx-padding: 5px;
-
     -fx-background-insets: 1px;
+    -fx-background-color:  YellowGreen;
 }
+.choiceBox, .textArea{
+  -fx-border-color : YellowGreen;
+  -fx-border-radius : 4px;
+}
+
 #lblBold{
   -fx-font-weight: bold;
 }

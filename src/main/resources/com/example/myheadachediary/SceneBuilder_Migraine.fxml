@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.String?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.CheckBox?>
@@ -24,7 +25,7 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="590.0" prefWidth="858.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.myheadachediary.HeadacheDiaryController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="590.0" minWidth="858.0" prefHeight="590.0" prefWidth="858.0" stylesheets="@SceneBuilder_Migraine.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.myheadachediary.HeadacheDiaryController">
     <VBox.margin>
         <Insets>
             <bottom>210</bottom>
@@ -56,37 +57,31 @@
         <tabs>
           <Tab fx:id="tabAdd" closable="false" text="Add Migraine">
                <content>
-                  <GridPane accessibleText="TabAddGrid" alignment="CENTER" prefHeight="383.0" prefWidth="150.0">
+                  <GridPane accessibleText="TabAddGrid" alignment="CENTER" prefHeight="521.0" prefWidth="858.0">
                     <columnConstraints>
                       <ColumnConstraints hgrow="SOMETIMES" maxWidth="482.6000122070312" minWidth="10.0" prefWidth="449.6" />
                         <ColumnConstraints hgrow="SOMETIMES" maxWidth="10.0" minWidth="0.0" prefWidth="10.0" />
                         <ColumnConstraints hgrow="SOMETIMES" maxWidth="404.0" minWidth="10.0" prefWidth="287.2000122070312" />
                     </columnConstraints>
                     <rowConstraints>
-                      <RowConstraints maxHeight="162.3999801635742" minHeight="10.0" prefHeight="87.20000610351562" vgrow="SOMETIMES" />
-                      <RowConstraints maxHeight="147.5999801635742" minHeight="10.0" prefHeight="105.59999389648439" vgrow="SOMETIMES" />
-                      <RowConstraints maxHeight="306.40000000000003" minHeight="10.0" prefHeight="210.0" vgrow="SOMETIMES" />
-                        <RowConstraints maxHeight="203.19999389648441" minHeight="0.0" prefHeight="131.60000000000002" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="162.3999801635742" minHeight="10.0" prefHeight="98.19999389648439" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="147.5999801635742" minHeight="10.0" prefHeight="105.40000610351564" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="306.40000000000003" minHeight="10.0" prefHeight="199.00003662109373" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="203.19999389648441" minHeight="0.0" prefHeight="125.39996337890625" vgrow="SOMETIMES" />
                     </rowConstraints>
                      <children>
-                        <GridPane accessibleText="DateGrid" prefHeight="82.0" prefWidth="178.0">
+                        <GridPane accessibleText="DateGrid" prefHeight="99.0" prefWidth="483.0">
                           <columnConstraints>
-                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="117.20000228881835" minWidth="24.79998779296875" prefWidth="117.20000228881835" />
-                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="321.5999755859375" minWidth="10.0" prefWidth="126.79999771118165" />
-                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="321.5999755859375" minWidth="10.0" prefWidth="196.00002441406252" />
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="321.5999755859375" minWidth="1.1999969303607827" prefWidth="1.1999969303607827" />
+                              <ColumnConstraints hgrow="SOMETIMES" maxWidth="481.2000030696392" minWidth="10.0" prefWidth="481.2000030696392" />
                           </columnConstraints>
                           <rowConstraints>
                             <RowConstraints maxHeight="23.19998779296875" minHeight="10.0" prefHeight="23.19998779296875" vgrow="SOMETIMES" />
-                            <RowConstraints maxHeight="22.4" minHeight="10.0" prefHeight="17.60001220703125" vgrow="SOMETIMES" />
-                            <RowConstraints maxHeight="34.39999999999999" minHeight="10.0" prefHeight="34.39999999999999" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="30.399999999999995" minHeight="10.0" prefHeight="30.399999999999995" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="34.39999999999999" minHeight="10.0" prefHeight="26.400000000000006" vgrow="SOMETIMES" />
                           </rowConstraints>
                            <children>
-                              <Label id="lblBold" text="Date" GridPane.valignment="TOP">
-                                 <opaqueInsets>
-                                    <Insets />
-                                 </opaqueInsets>
-                              </Label>
-                              <Button fx:id="btnAuto" mnemonicParsing="false" text="Auto!" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <Button id="btnAdd" fx:id="btnLastestSetting" mnemonicParsing="false" onAction="#onClickFillLastestSettings" prefHeight="27.0" prefWidth="151.0" text="Fill With Lastest Settings!" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
                            </children>
                         </GridPane>
                         <GridPane GridPane.rowIndex="1">
@@ -120,6 +115,11 @@
                               </Spinner>
                               <DatePicker fx:id="dayStart" prefHeight="26.0" prefWidth="110.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                               <DatePicker fx:id="dayEnd" layoutX="148.0" layoutY="36.0" prefHeight="26.0" prefWidth="110.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <Label id="lblBold" text="Date" GridPane.valignment="TOP">
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                              </Label>
                            </children>
                         </GridPane>
                         <GridPane GridPane.rowIndex="2">
@@ -131,27 +131,31 @@
                           </columnConstraints>
                           <rowConstraints>
                             <RowConstraints maxHeight="45.6000244140625" minHeight="10.0" prefHeight="28.9999755859375" vgrow="SOMETIMES" />
-                            <RowConstraints maxHeight="84.59999198913575" minHeight="10.0" prefHeight="31.799981689453126" vgrow="SOMETIMES" />
-                            <RowConstraints maxHeight="83.40001220703127" minHeight="10.0" prefHeight="38.59999389648437" vgrow="SOMETIMES" />
-                              <RowConstraints maxHeight="80.99998779296874" minHeight="10.0" prefHeight="35.0" vgrow="SOMETIMES" />
-                              <RowConstraints maxHeight="100.799951171875" minHeight="10.0" prefHeight="79.80000000000001" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="84.59999198913575" minHeight="10.0" prefHeight="42.40000915527343" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="83.40001220703127" minHeight="10.0" prefHeight="45.99998779296875" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="80.99998779296874" minHeight="10.0" prefHeight="40.600012207031256" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="100.799951171875" minHeight="10.0" prefHeight="37.399987792968744" vgrow="SOMETIMES" />
                           </rowConstraints>
                            <children>
-                              <ChoiceBox fx:id="cobDizziness" prefHeight="27.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                              <ChoiceBox fx:id="cobDizziness" prefHeight="27.0" prefWidth="100.0" styleClass="choiceBox" GridPane.columnIndex="1" GridPane.rowIndex="2" />
                               <Label text="Severity" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
                               <Label text="Dizziness" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
                               <Label id="lblBold" text="Symptom" GridPane.halignment="LEFT" GridPane.valignment="TOP" />
-                              <ChoiceBox fx:id="cobSeverity" layoutX="91.0" layoutY="52.0" prefHeight="27.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                              <ChoiceBox fx:id="cobSeverity" layoutX="91.0" layoutY="52.0" prefHeight="27.0" prefWidth="100.0" styleClass="choiceBox" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                               <Label text="Side Headache" GridPane.columnIndex="2" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
                               <Label text="Nausea" GridPane.columnIndex="2" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
-                              <ChoiceBox fx:id="cobSideHeadache" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
-                              <ChoiceBox fx:id="cobNausea" prefHeight="27.0" prefWidth="100.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
-                              <ChoiceBox fx:id="cobAura" layoutX="104.0" layoutY="88.0" prefHeight="27.0" prefWidth="100.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                              <ChoiceBox fx:id="cobSideHeadache" prefWidth="100.0" styleClass="choiceBox" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                              <ChoiceBox fx:id="cobNausea" prefHeight="27.0" prefWidth="100.0" styleClass="choiceBox" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                              <ChoiceBox fx:id="cobAura" layoutX="104.0" layoutY="88.0" prefHeight="27.0" prefWidth="100.0" styleClass="choiceBox" GridPane.columnIndex="1" GridPane.rowIndex="3" />
                               <Label text="Aura" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
                               <Label text="Other" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
                               <AnchorPane prefHeight="70.0" prefWidth="300.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
                                  <children>
-                                    <TextArea fx:id="txtAOther" layoutY="9.0" prefHeight="34.0" prefWidth="300.0" />
+                                    <TextArea fx:id="txtAOther" layoutY="9.0" prefHeight="34.0" prefWidth="300.0">
+                                       <styleClass>
+                                          <String fx:value="txt" />
+                                          <String fx:value="textArea" />
+                                       </styleClass></TextArea>
                                  </children>
                               </AnchorPane>
                            </children>
@@ -184,9 +188,9 @@
                               <ColumnConstraints hgrow="SOMETIMES" maxWidth="102.0" minWidth="10.0" prefWidth="98.0" />
                           </columnConstraints>
                           <rowConstraints>
-                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="31.599996948242186" minHeight="10.0" prefHeight="25.20000305175781" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="47.599996948242186" minHeight="10.0" prefHeight="47.599996948242186" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="38.00000610351562" minHeight="10.0" prefHeight="19.60001220703124" vgrow="SOMETIMES" />
                           </rowConstraints>
                            <children>
                               <Label id="lblBold" text="Triggers" GridPane.valignment="TOP" />
@@ -195,14 +199,6 @@
                               <CheckBox fx:id="chkTrigSleep" layoutX="155.0" layoutY="44.0" mnemonicParsing="false" text="Sleep" GridPane.columnIndex="2" GridPane.rowIndex="2" />
                               <CheckBox fx:id="chkTrigLake" layoutX="10.0" layoutY="72.0" mnemonicParsing="false" text="Lake of Sleep" GridPane.columnIndex="2" GridPane.rowIndex="1" />
                               <CheckBox fx:id="chkTrigPeriod" layoutX="10.0" layoutY="44.0" mnemonicParsing="false" text="Period" GridPane.columnIndex="3" GridPane.rowIndex="1" />
-                              <CheckBox fx:id="chkTrigOther" layoutX="212.0" layoutY="44.0" mnemonicParsing="false" text=" " GridPane.columnIndex="3" GridPane.rowIndex="2">
-                                 <graphic>
-                                    <TextField fx:id="txtTrigOther" prefHeight="25.0" prefWidth="62.0" />
-                                 </graphic>
-                                 <GridPane.margin>
-                                    <Insets right="5.0" />
-                                 </GridPane.margin>
-                              </CheckBox>
                            </children>
                         </GridPane>
                         <Line endX="100.67868041992188" endY="-258.1377868652344" startX="102.09284973144531" startY="426.8929138183594" GridPane.columnIndex="1" GridPane.rowIndex="2" />
@@ -241,7 +237,41 @@
                               </CheckBox>
                            </children>
                         </GridPane>
-                        <Button fx:id="btnAddHeadache" mnemonicParsing="false" onAction="#onClickAddHeadache" style="-fx-background-color: YellowGreen;" text="Add Headache" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+                        <GridPane GridPane.columnIndex="2" GridPane.rowIndex="3">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Label id="lblBold" fx:id="lblIssues" stylesheets="@SceneBuilder_Migraine.css" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+                              <Button id="btnAdd" fx:id="btnAddHeadache" mnemonicParsing="false" onAction="#onClickAddHeadache" stylesheets="@SceneBuilder_Migraine.css" text="Add Headache" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+                           </children>
+                        </GridPane>
+                        <GridPane GridPane.columnIndex="2" GridPane.rowIndex="1">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="95.20001220703125" minWidth="0.0" prefWidth="89.59996337890625" />
+                            <ColumnConstraints hgrow="SOMETIMES" maxWidth="277.600048828125" minWidth="10.0" prefWidth="274.40003662109376" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <CheckBox fx:id="chkTrigOther" mnemonicParsing="false" prefHeight="55.0" prefWidth="262.0" text=" " GridPane.columnIndex="1" GridPane.halignment="LEFT" GridPane.rowIndex="1" GridPane.valignment="TOP">
+                                 <GridPane.margin>
+                                    <Insets right="5.0" />
+                                 </GridPane.margin>
+                                 <graphic>
+                                    <TextField fx:id="txtTrigOther" prefHeight="54.0" prefWidth="239.0" styleClass="textArea" />
+                                 </graphic>
+                              </CheckBox>
+                           </children>
+                        </GridPane>
                      </children>
                      <opaqueInsets>
                         <Insets />
@@ -256,12 +286,12 @@
                       <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
                     </columnConstraints>
                     <rowConstraints>
-                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="356.8" minHeight="10.0" prefHeight="356.8" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="172.79999389648438" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
                       <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
                     </rowConstraints>
                      <children>
-                        <TableView fx:id="tabHeadache" prefHeight="200.0" prefWidth="200.0">
+                        <TableView fx:id="tabHeadache" prefHeight="238.0" prefWidth="858.0">
                           <columns>
                             <TableColumn fx:id="colDay" prefWidth="75.99999845027924" text="Starting" />
                             <TableColumn fx:id="colDuration" prefWidth="64.00000762939453" text="Ending" />
