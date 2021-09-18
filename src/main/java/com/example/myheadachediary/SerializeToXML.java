@@ -1,8 +1,7 @@
 package com.example.myheadachediary;
-import javafx.collections.ObservableList;
+
 
 import java.beans.ExceptionListener;
-import java.beans.PersistenceDelegate;
 import java.beans.XMLDecoder;
 import java.beans.XMLEncoder;
 import java.io.*;
