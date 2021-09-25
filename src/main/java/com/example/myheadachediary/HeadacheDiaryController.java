@@ -257,7 +257,6 @@ public class HeadacheDiaryController {
                 // Display row data in TabView
                 tabHeadache.setItems(obsLstHd);
             }
-
         } catch (IOException e) {
             e.printStackTrace();
         }

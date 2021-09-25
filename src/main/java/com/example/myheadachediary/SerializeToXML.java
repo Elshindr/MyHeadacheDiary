@@ -26,15 +26,17 @@ public class SerializeToXML {
         fos.close();
     }
 
-    public static Object loadFromXML() throws FileNotFoundException, IOException{
+    public static Object loadFromXML() throws  IOException {
 
         Object anObject = null;
-        XMLDecoder decoder = new XMLDecoder(new FileInputStream(SERIALIZED_FILE_NAME));
-        try {
-            anObject = decoder.readObject();
-        }
-        finally{
-            decoder.close();
+        File testXML = new File(SERIALIZED_FILE_NAME);
+        if(testXML.exists()){
+            XMLDecoder decoder = new XMLDecoder(new FileInputStream(SERIALIZED_FILE_NAME));
+            try {
+                anObject = decoder.readObject();
+            } finally{
+                decoder.close();
+            }
         }
         return anObject;
     }
