@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_launcher_app_8java" kind="file" language="Java">
+    <compoundname>LauncherApp.java</compoundname>
+    <innerclass refid="classcom_1_1example_1_1myheadachediary_1_1_launcher_app" prot="public">com::example::myheadachediary::LauncherApp</innerclass>
+    <innernamespace refid="namespacecom_1_1example_1_1myheadachediary">com::example::myheadachediary</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">com.example.myheadachediary;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="classcom_1_1example_1_1myheadachediary_1_1_launcher_app" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classcom_1_1example_1_1myheadachediary_1_1_launcher_app" kindref="compound">LauncherApp</ref><sp/>{</highlight></codeline>
+<codeline lineno="4" refid="classcom_1_1example_1_1myheadachediary_1_1_launcher_app_1a926ef470c1d841a8833174a83b9da412" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classcom_1_1example_1_1myheadachediary_1_1_launcher_app_1a926ef470c1d841a8833174a83b9da412" kindref="member">main</ref>(String[]<sp/>args)<sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classcom_1_1example_1_1myheadachediary_1_1_headache_diary_application" kindref="compound">HeadacheDiaryApplication</ref>.<ref refid="classcom_1_1example_1_1myheadachediary_1_1_headache_diary_application_1abe661964777149cd18e235042950d6b3" kindref="member">main</ref>(args);</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/LauncherApp.java"/>
+  </compounddef>
+</doxygen>

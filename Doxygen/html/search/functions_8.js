@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['savetoxml_0',['saveToXML',['../classcom_1_1example_1_1myheadachediary_1_1model_1_1_serialize_to_x_m_l.html#a0e3a78c0108c610fd3940893878ffac5',1,'com::example::myheadachediary::model::SerializeToXML']]],
+  ['setaura_1',['setAura',['../classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a7f16a98f6dbf3687085bd05fe755835f',1,'com::example::myheadachediary::model::Episode']]],
+  ['setdateend_2',['setDateEnd',['../classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#ad34c220dc2c7673b3374921b18cd85e5',1,'com::example::myheadachediary::model::Episode']]],
+  ['setdatestart_3',['setDateStart',['../classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a18cf1e00ca7f073c9e802f7c2be6e55d',1,'com::example::myheadachediary::model::Episode']]],
+  ['setdizziness_4',['setDizziness',['../classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#ab279a85405eff579e8a80848e12c168e',1,'com::example::myheadachediary::model::Episode']]],
+  ['setendheadache_5',['setEndHeadache',['../classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a4fa174e7fd71b83295b67f891d1f04ca',1,'com::example::myheadachediary::model::Headache']]],
+  ['sethypersensibility_6',['setHypersensibility',['../classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#aa2269de62481ab369bbf2f566a675c78',1,'com::example::myheadachediary::model::Episode']]],
+  ['setidepisode_7',['setIdEpisode',['../classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a3aafd7adc21ca3337dd6f8af369de76d',1,'com::example::myheadachediary::model::Episode']]],
+  ['setidheadache_8',['setIdHeadache',['../classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a5dad1f8499b7ce1614054883e3ed920e',1,'com::example::myheadachediary::model::Headache']]],
+  ['setlstepisodes_9',['setLstEpisodes',['../classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a2218c4bfcc236b46367d28b3d330926c',1,'com::example::myheadachediary::model::Headache']]],
+  ['setmedication_10',['setMedication',['../classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#aec668e810476d60feab1f353b2546f1c',1,'com::example::myheadachediary::model::Episode']]],
+  ['setnausea_11',['setNausea',['../classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a88c313d149bf4179eb0a51f291168975',1,'com::example::myheadachediary::model::Episode']]],
+  ['setnbepisodes_12',['setNbEpisodes',['../classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a9ad33362ed759962e396765caee856b2',1,'com::example::myheadachediary::model::Headache']]],
+  ['setothersymp_13',['setOtherSymp',['../classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a6ca5713837d1294361673f85dc26d4b8',1,'com::example::myheadachediary::model::Episode']]],
+  ['setseverity_14',['setSeverity',['../classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a3dfc122e4f90bbdc061cda2f95664f2d',1,'com::example::myheadachediary::model::Episode']]],
+  ['setsideheadache_15',['setSideHeadache',['../classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#afcfd458ebff651a451270c202c69aa35',1,'com::example::myheadachediary::model::Episode']]],
+  ['setstartheadache_16',['setStartHeadache',['../classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a9310096a4447185a242f3a851d1d32b8',1,'com::example::myheadachediary::model::Headache']]],
+  ['settriggers_17',['setTriggers',['../classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a6e2e628e556805d4b7043d4bdfc8722c',1,'com::example::myheadachediary::model::Episode']]],
+  ['start_18',['start',['../classcom_1_1example_1_1myheadachediary_1_1_headache_diary_application.html#af75762cc827d84fdd8275fa3249e5f90',1,'com::example::myheadachediary::HeadacheDiaryApplication']]]
+];

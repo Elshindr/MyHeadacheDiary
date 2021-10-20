@@ -10,4 +10,9 @@ module com.example.myheadachediary {
 
     opens com.example.myheadachediary to javafx.fxml;
     exports com.example.myheadachediary;
+    exports com.example.myheadachediary.model;
+    opens com.example.myheadachediary.model to javafx.fxml;
+    exports com.example.myheadachediary.controler;
+    opens com.example.myheadachediary.controler to javafx.fxml;
+
 }
