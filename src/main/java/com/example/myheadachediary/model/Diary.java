@@ -1,78 +1,74 @@
 package com.example.myheadachediary.model;
 
-/*
-public class Diary {
-    public Diary(){}
-    public Diary(String strHeadaches){}
+import com.thoughtworks.xstream.converters.Converter;
+import com.thoughtworks.xstream.converters.MarshallingContext;
+import com.thoughtworks.xstream.converters.UnmarshallingContext;
+import com.thoughtworks.xstream.io.HierarchicalStreamReader;
+import com.thoughtworks.xstream.io.HierarchicalStreamWriter;
 
+/**
+ * This Diary Class convert headaches datas for XML serialize
+ */
+public class Diary implements Converter {
 
-    }
-}*/
-
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.xml.sax.SAXException;
-
-import javax.xml.XMLConstants;
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.transform.dom.DOMSource;
-import javax.xml.validation.Schema;
-import javax.xml.validation.SchemaFactory;
-import javax.xml.validation.Validator;
-import java.io.File;
-import java.io.IOException;
-
-public class Diary {
-    public static void main(String strDiary) {
-
-        final String strXML = strDiary;
-
-        DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-        DocumentBuilder builder = null;
-        try {
-            builder = factory.newDocumentBuilder();
-        } catch (ParserConfigurationException e) {
-            e.printStackTrace();
-        }
-
-        Document document = null;
-        try {
-            document = builder.parse(new File( "MyDiaryTest.xml" ));
-        } catch (SAXException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        Schema schema = null;
-        try {
-            String language = XMLConstants.W3C_XML_SCHEMA_NS_URI;
-            SchemaFactory schfactory = SchemaFactory.newInstance(language);
-            schema = schfactory.newSchema(new File("MyDiaryTest.xml"));
-        } catch (Exception e) {
-            System.out.println(e.toString());
-        }
-        Validator validator = schema.newValidator();
-        try {
-            validator.validate(new DOMSource(document));
-        } catch (SAXException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        Element root = document.getDocumentElement();
-
-       // element.getAttribute("attributeName") ;    //returns specific attribute
-        //element.getAttributes();                //returns a Map (table) of names/values
-
-        //Element node;
-       // node.getElementsByTagName("subElementName"); //returns a list of sub-elements of specified name
-        //node.getChildNodes()         ;                //returns a list of all child nodes
+    public void testHedache(){
+        System.out.println();
     }
 
+    @Override
+    public boolean canConvert(Class clazz) {
+        return clazz.equals(Headache.class);
+    }
 
+    /**
+     * marshal method is responsible for translating an object to XML.
+     * @param value the object we are trying to convert
+     * @param writer the writer were we should output the data
+     * @param context the current marshalling context
+     */
+    @Override
+    public void marshal(Object value, HierarchicalStreamWriter writer, MarshallingContext context) {
+
+        Headache aHeadache = (Headache) value;
+        writer.startNode("id_Headache");
+        writer.setValue(String.valueOf(aHeadache.getIdHeadache()));
+        writer.endNode();
+
+        writer.startNode("day_start");
+        writer.setValue(aHeadache.getStartHeadache());
+        writer.endNode();
+
+        writer.startNode("day_end");
+        writer.setValue(aHeadache.getEndHeadache());
+        writer.endNode();
+
+        writer.startNode("nbEpisodes");
+        writer.setValue(String.valueOf(aHeadache.getLstEpisodes().size()));
+        writer.endNode();
+
+        writer.startNode("episodes");
+        writer.setValue(String.valueOf(aHeadache.getLstEpisodes()));
+        writer.endNode();
+    }
+    @Override
+    public Object unmarshal(HierarchicalStreamReader reader, UnmarshallingContext context) {
+
+        Headache aHeadache = new Headache();
+
+        reader.moveDown();
+        aHeadache.setIdHeadache(reader.getAttributeCount());
+        reader.moveUp();
+
+        reader.moveDown();
+        aHeadache.setStartHeadache(reader.getValue());
+        reader.moveUp();
+
+
+        // reader.moveDown();
+        // aHeadache.setLstEpisodes(reader.getValue());
+        // reader.moveUp();
+
+        return aHeadache;
+    }
 
 }

@@ -17,7 +17,9 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
-
+/**
+ * This Class is the main controller class for FXML view file
+ */
 public class FXMLMyDiaryController {
     // Serializable list
     @FXML
@@ -25,7 +27,7 @@ public class FXMLMyDiaryController {
     @FXML
     private final List<Episode> lstEpisodes = new ArrayList<>();
 
-    // Create a empty ObservableList for Record all FileCaract object
+    // Create an empty ObservableList for Record all FileCaract object
     ObservableList<Headache> obsLstHd = FXCollections.observableArrayList();
     ObservableList<Episode> obsLstEp = FXCollections.observableArrayList();
 
@@ -53,8 +55,7 @@ public class FXMLMyDiaryController {
     String hypersensibility;
     String triggers;
     String medication;
-
-
+    String comments;
 
     // Dates Variables
     @FXML
@@ -93,6 +94,7 @@ public class FXMLMyDiaryController {
     private CheckBox chkHypMovement;
     @FXML
     private CheckBox chkHypSmell;
+
     // Triggers variables
     @FXML
     private CheckBox chkTrigLight;
@@ -134,12 +136,13 @@ public class FXMLMyDiaryController {
     private Button btnAddHeadache;
 
     @FXML
-    private Button btnAuto;
+    private Button btnLastestSetting;
 
     // Labels issues
     @FXML
     private Label lblIssues;
-
+    @FXML
+    private TextArea txtAComments;
     //
     // Variables for TabDiary
     // TableView for Headaches
@@ -153,6 +156,9 @@ public class FXMLMyDiaryController {
     private TableColumn<Headache, String> colHdEnd;
     @FXML
     private TableColumn<Headache, Integer> colHdNbEpisode;
+    @FXML
+    private TableColumn<Episode, String> colHdComments;
+
 
     // TableView for Episodes
     @FXML
@@ -181,7 +187,12 @@ public class FXMLMyDiaryController {
     private TableColumn<Episode, String> colTriggers;
     @FXML
     private TableColumn<Episode, String> colMed;
+    @FXML
+    private TableColumn<Episode, String> colCom;
 
+    /**
+     * This method initialize all fxml components
+     */
     @FXML
     private void initialize() {
         // Disable btn
@@ -195,8 +206,16 @@ public class FXMLMyDiaryController {
 
         ToggleGroup groupAddEntries = new ToggleGroup();
         togglebtnAddHeadache.setToggleGroup(groupAddEntries);
-        togglebtnAddEpisode.setToggleGroup(groupAddEntries);
+        togglebtnAddHeadache.setTooltip(new Tooltip("Add a new headache entries"));
         togglebtnAddHeadache.isSelected();
+
+        togglebtnAddEpisode.setToggleGroup(groupAddEntries);
+        togglebtnAddEpisode.setTooltip(new Tooltip("Add a new episode from last headache entry"));
+
+        btnLastestSetting.setTooltip(new Tooltip("Auto fill With Lastest Settings!"));
+        if(lstHeadaches.size() == 0){
+            togglebtnAddEpisode.setDisable(true);
+        }
 
         // If no row to display
         tabHeadache.setPlaceholder(new Label("No Headache to display? Lucky one!"));
@@ -208,8 +227,26 @@ public class FXMLMyDiaryController {
 
     }
 
+    /**
+     *
+     */
+    @FXML
+    public void onSelectedRowTabHeadache(){
+        Headache selectedHeadache = tabHeadache.getSelectionModel().getSelectedItem();
+
+        obsLstEp.clear();
+        obsLstEp.addAll(selectedHeadache.getLstEpisodes());
+        tabEpisodes.setItems(obsLstEp);
+
+    }
 
 
+
+
+    /**
+     * This method is call on click event from AddHeadache button. All information are stored in a new Episode object.
+     * @see Episode
+     */
     @FXML
     protected void onClickAddHeadache() {
 
@@ -249,29 +286,35 @@ public class FXMLMyDiaryController {
         checkMedication();
 
 
-
-
         // IF Add New Episode
         if (togglebtnAddEpisode.isSelected()) {
+            // on recupére la derniere migraine. On crée un nouvel episode et modifie la date de fin de la migraine
             Headache lastHeadache = lstHeadaches.get(lstHeadaches.size() - 1);
-            Episode anEpisode = new Episode(lastHeadache.getLstEpisodes().size() + 1, startDay, endDay, severity, dizziness, aura, nausea, sideHeadache, otherSymp, hypersensibility, triggers, medication);
+            lastHeadache.setEndHeadache(endDay);
+            Episode newEpisode = new Episode(startDay, endDay, severity, dizziness, aura, nausea, sideHeadache, otherSymp, hypersensibility, triggers, medication, txtAComments.getText());
 
-            lastHeadache.addEpisodeInList(anEpisode);
-
-            lstEpisodes.add(anEpisode);
-            obsLstEp.add(anEpisode);
+            // on ajoute cet episode à la liste de la derniere migraine
+            lastHeadache.addEpisodeInList(newEpisode);
+            lastHeadache.setNbEpisodes();
+            obsLstEp.add(newEpisode);
+            obsLstHd.set(lstHeadaches.size() - 1, lastHeadache);
 
         // IF Add New Headache
         } else if (togglebtnAddHeadache.isSelected()) {
-            Headache aHeadache = new Headache((lstHeadaches.size() + 1), startDay, endDay, lstEpisodes);
-            Episode anEpisode = new Episode(aHeadache.getLstEpisodes().size() + 1, startDay, endDay, severity, dizziness, aura, nausea, sideHeadache, otherSymp, hypersensibility, triggers, medication);
-
+           // Créé une migraine puis un Episode. On ajoute cet episode à sa liste d'episode
+            Headache aHeadache = new Headache(lstHeadaches.size() + 1, startDay, endDay, txtAComments.getText());
+            Episode anEpisode = new Episode(startDay, endDay, severity, dizziness, aura, nausea, sideHeadache, otherSymp, hypersensibility, triggers, medication, txtAComments.getText());
             aHeadache.addEpisodeInList(anEpisode);
-            lstHeadaches.add(aHeadache);
 
+            // on ajoute cette migraine à la liste des migraines pour le relier à son observateur
+            lstHeadaches.add(aHeadache);
 
             obsLstHd.add(aHeadache);
             obsLstEp.addAll(aHeadache.getLstEpisodes());
+
+            if(lstHeadaches.size() > 0){
+                togglebtnAddEpisode.setDisable(false);
+            }
         }
 
 
@@ -279,12 +322,12 @@ public class FXMLMyDiaryController {
         tabHeadache.setItems(obsLstHd);
         tabEpisodes.setItems(obsLstEp);
 
-
+        // Sauvegarde les migraines dans la liste des migraines
         try {
+
             SerializeToXML.saveToXML(lstHeadaches);
 
-            //Diary.main(Headache.writeDiary(lstHeadaches));
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
 
@@ -293,20 +336,27 @@ public class FXMLMyDiaryController {
         symptomInitialize();
         medicationInitialize();
         checkBokReboot();
-        // tabDiaryInitialize();
+        txtAComments.setText("");
+        //tabDiaryInitialize();
 
     }
 
-
-    // Method to get the selected date and time formated
+    /**
+     * This method get and  format the selected date from datepickers
+     * @param day
+     * @param hours
+     * @param minutes
+     * @return date and time formated
+     */
     private LocalDateTime getDateHeadache(LocalDate day, int hours, int minutes) {
         LocalTime time = LocalTime.of(hours, minutes);
 
         return LocalDateTime.of(day, time);
     }
 
-
-    // checkHypersensibility method Get values from hypersensibility
+    /**
+     * This method get values from Hypersensibility if check box is checked
+     */
     private void checkHypersensibility() {
         hypersensibility = "";
         if (chkHypLight.isSelected()) {
@@ -323,8 +373,9 @@ public class FXMLMyDiaryController {
         }
     }
 
-
-    // checkPotentialsTriggers method Get values from PotentialsTrigger
+    /**
+     * This method get values from PotentialsTrigger if check box is checked
+     */
     private void checkPotentialsTriggers() {
         triggers = "";
         if (chkTrigLight.isSelected()) {
@@ -347,8 +398,9 @@ public class FXMLMyDiaryController {
         }
     }
 
-
-    // checkMedication method Get values from medication
+    /**
+     * checkMedication method Get values from medication
+     */
     private void checkMedication() {
         medication = "";
         if (chkMedIbup.isSelected()) {
@@ -365,6 +417,10 @@ public class FXMLMyDiaryController {
         }
     }
 
+
+    /**
+     * This method uncheck all checked variables
+     */
     public void checkBokReboot() {
         chkHypLight.setSelected(false);
         chkHypMovement.setSelected(false);
@@ -384,6 +440,10 @@ public class FXMLMyDiaryController {
         chkMedOther.setSelected(false);
     }
 
+
+    /**
+     * This method initialize all dates variables
+     */
     private void dayInitialize() {
         // Setting the current date
         dayStart.setValue(LocalDate.now());
@@ -409,7 +469,10 @@ public class FXMLMyDiaryController {
         spinEndMin.setEditable(true);
     }
 
-    // Setting cobChoice Value ;
+
+    /**
+     * Setting cobChoice Value ;
+     */
     private void symptomInitialize() {
         cobDizziness.setItems(obsDiz);
         cobDizziness.setValue(tabSymp[0]);
@@ -427,6 +490,10 @@ public class FXMLMyDiaryController {
         cobSideHeadache.setValue(tabSymp[6]);
     }
 
+
+    /**
+     * Setting medication objects
+     */
     private void medicationInitialize() {
         // Value factory for Minutes and Hours
         SpinnerValueFactory<Integer> valueIbup = new SpinnerValueFactory.IntegerSpinnerValueFactory(0, 1000, 0);
@@ -446,12 +513,17 @@ public class FXMLMyDiaryController {
         spinMedOther.setEditable(true);
     }
 
+
+    /**
+     * Setting tableViews
+     */
     private void tabDiaryInitialize() {
         // Set TabView tabHeadache
         colIdHeadache.setCellValueFactory(new PropertyValueFactory<>("idHeadache"));
         colHdStart.setCellValueFactory(new PropertyValueFactory<>("startHeadache"));
         colHdEnd.setCellValueFactory(new PropertyValueFactory<>("endHeadache"));
         colHdNbEpisode.setCellValueFactory(new PropertyValueFactory<>("nbEpisodes"));
+        colHdComments.setCellValueFactory(new PropertyValueFactory<>("comments"));
 
         // Set TabView tabEpisodes
         // Defines how to fill data for each cell with value from get property of Object.
@@ -467,10 +539,18 @@ public class FXMLMyDiaryController {
         colHyper.setCellValueFactory(new PropertyValueFactory<>("hypersensibility"));
         colTriggers.setCellValueFactory(new PropertyValueFactory<>("triggers"));
         colMed.setCellValueFactory(new PropertyValueFactory<>("medication"));
+        colCom.setCellValueFactory(new PropertyValueFactory<>("commentEp"));
+
 
         // Load data from XML file
         try {
-            Object diary = SerializeToXML.loadFromXML();
+            Object diary = null;
+            try {
+                diary = SerializeToXML.loadFromXML() ;
+
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
 
             if (diary != null) {
                 lstHeadaches = (List<Headache>) diary;
@@ -484,13 +564,15 @@ public class FXMLMyDiaryController {
                 tabEpisodes.setItems(obsLstEp);
                 System.out.println(lstEpisodes.size());
             }
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
 
-    // Fill form with last Headache
+    /**
+     * Fill form with last Headache information
+     */
     @FXML
     protected void onClickFillLastestSettings() {
         Headache anHeadache = obsLstHd.get(obsLstHd.size() - 1);
@@ -504,7 +586,7 @@ public class FXMLMyDiaryController {
         cobDizziness.setValue(anEpisode.getDizziness());
         cobSideHeadache.setValue(anEpisode.getSideHeadache());
         txtAOther.setText(anEpisode.getOtherSymp());
-
+        txtAComments.setText(anEpisode.getCommentEp());
         // St values from hypersensibility
         hypersensibility = anEpisode.getHypersensibility();
 
@@ -560,6 +642,12 @@ public class FXMLMyDiaryController {
         if (!medication.equals("")) {
             chkMedOther.setSelected(true);
             txtMedOther.setText(medication);
+        }
+
+        // Get values from comments
+        comments = anEpisode.getCommentEp();
+        if(!comments.equals("")){
+            txtAComments.setText(comments);
         }
 
     }

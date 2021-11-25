@@ -1,25 +1,58 @@
 package com.example.myheadachediary.model;
 
-import java.io.Serializable;
+import javax.xml.bind.annotation.XmlElement;
+import java.io.Externalizable;
+import java.io.IOException;
+import java.io.ObjectInput;
+import java.io.ObjectOutput;
 import java.util.ArrayList;
 import java.util.List;
+/**
+ * This Class represent Headache. A headache have an id, a starting date and ending, and is compose of a List of one or somes episodes.
+ * @see Episode
+ */
+//@XmlRootElement(name = "Headache")
 
-public class Headache implements Serializable {
+public class Headache  implements Externalizable {
+
+    private static final long serialVersionUID = 1L;
+
+    //@XmlAttribute(name = "id")
     private int idHeadache;
+
+    //@XmlElement(name = "startHeadache")
     private String startHeadache;
+
+    //@XmlElement(name = "endHeadache")
     private String endHeadache;
+
+    //@XmlElement(name = "nb_Episodes")
     private int nbEpisodes;
+
+    private String comments;
+
     private List<Episode> lstEpisodes = new ArrayList<>();
 
-    public Headache() {
+
+    public Headache(){
+        super();
     }
 
-    public Headache(int idHeadache, String startHeadache, String endHeadache, List<Episode> lstEpisodes) {
+    /**
+     * This method is Headache constructor
+     * @param startHeadache
+     * @param endHeadache
+     */
+    public Headache(int idHeadache, String startHeadache, String endHeadache, String comments) {
+        super();
         this.idHeadache = idHeadache; // egale au nombre de headaches existant + 1
         this.startHeadache = startHeadache;
         this.endHeadache = endHeadache;
-        this.lstEpisodes =  lstEpisodes; // by default ,then + 1 by another episode
+        this.nbEpisodes = 1;
+        this.comments = comments;
+        // by default ,then + 1 by another episode
     }
+
 
     public int getIdHeadache() {
         return idHeadache;
@@ -45,6 +78,15 @@ public class Headache implements Serializable {
         this.endHeadache = endHeadache;
     }
 
+    public List<Episode> getLstEpisodes() {
+        return lstEpisodes;
+    }
+
+    @XmlElement(name = "liste_Episodes")
+    public void setLstEpisodes(List<Episode> lstEpisodes) {
+        this.lstEpisodes = lstEpisodes;
+    }
+
     public int getNbEpisodes() {
         return nbEpisodes;
     }
@@ -53,38 +95,36 @@ public class Headache implements Serializable {
         this.nbEpisodes = nbEpisodes;
     }
 
-    public List<Episode> getLstEpisodes() {
-        return lstEpisodes;
+    public void setNbEpisodes() {
+        this.nbEpisodes += 1;
     }
 
-    public void setLstEpisodes(List<Episode> lstEpisodes) {
-        this.lstEpisodes = lstEpisodes;
+    public String getComments() {
+        return comments;
     }
 
+    public void setComments(String comments) {
+        this.comments = comments;
+    }
 
+    /**
+     * This method add a new episode in the List lstEpisodes
+     * @param anEpisode
+     */
     public void addEpisodeInList(Episode anEpisode) {
+
         lstEpisodes.add(anEpisode);
+
+        anEpisode.setIdEpisode(lstEpisodes.size());
     }
 
-    public static String writeDiary(List<Headache> lstHeadaches) {
-        String strEpisode = "";
-        String strHeadaches = "";
+    @Override
+    public void writeExternal(ObjectOutput out) throws IOException {
 
-        for(Headache aHeadache : lstHeadaches){
-            for(Episode anEpisode : aHeadache.getLstEpisodes()){
-                strEpisode = strEpisode + anEpisode.toString() ;
-            }
-            strHeadaches = strHeadaches +
-                    "   <headache>"+
-                    "   <headache id=\""+aHeadache.getIdHeadache()+"\">"+
-                    "       <startHeadache>" + aHeadache.getStartHeadache() + "</startHeadache>" +
-                    "       <endHeadache>" + aHeadache.getStartHeadache()+ "</endHeadache>" +
-                    "       <episodes>" + strEpisode + "</episodes>" +
-                    "       <nbEpisodes>" + aHeadache.getNbEpisodes() + "</nbEpisodes>" +
-                    "   </headache>";
-        }
+    }
 
-        return  "<headaches>" + strHeadaches + "\n" + "</headaches>";
+    @Override
+    public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
 
     }
 }
