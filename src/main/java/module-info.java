@@ -7,17 +7,17 @@ module com.example.myheadachediary {
     requires org.kordamp.bootstrapfx.core;
     requires javafx.graphics;
     requires java.desktop;
-    requires xstream;
-    requires org.json;
-    requires com.fasterxml.jackson.core;
-    requires com.fasterxml.jackson.databind;
+
     requires jaxb.api;
 
-    opens com.example.myheadachediary to javafx.fxml;
-    exports com.example.myheadachediary;
     exports com.example.myheadachediary.model;
     opens com.example.myheadachediary.model to javafx.fxml;
     exports com.example.myheadachediary.controler;
     opens com.example.myheadachediary.controler to javafx.fxml;
+    opens com.example.myheadachediary.tools to javafx.fxml;
+    exports com.example.myheadachediary.tools;
+    opens com.example.myheadachediary.view to javafx.fxml;
+    exports com.example.myheadachediary.view;
+
 
 }

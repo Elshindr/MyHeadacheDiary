@@ -179,12 +179,12 @@
   <LI><OBJECT type="text/sitemap"><param name="Name" value="Class Hierarchy"><param name="Local" value="hierarchy.html"><param name="ImageNumber" value="1"></OBJECT>
     <UL>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="com.example.myheadachediary.model.Diary"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_diary.html"><param name="ImageNumber" value="11"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.example.myheadachediary.controler.FXMLMyDiaryController"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller.html"><param name="ImageNumber" value="11"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.example.myheadachediary.LauncherApp"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1_launcher_app.html"><param name="ImageNumber" value="11"></OBJECT>
-    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.example.myheadachediary.model.SerializeToXML"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_serialize_to_x_m_l.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.example.myheadachediary.view.FXMLMyDiaryController"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.example.myheadachediary.tools.LauncherApp"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1_launcher_app.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.example.myheadachediary.tools.SerializeToXML"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_serialize_to_x_m_l.html"><param name="ImageNumber" value="11"></OBJECT>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="Application"><param name="ImageNumber" value="1"></OBJECT>
       <UL>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="com.example.myheadachediary.HeadacheDiaryApplication"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1_headache_diary_application.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="com.example.myheadachediary.view.HeadacheDiaryApplication"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1_headache_diary_application.html"><param name="ImageNumber" value="11"></OBJECT>
       </UL>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="Serializable"><param name="ImageNumber" value="1"></OBJECT>
       <UL>
@@ -204,7 +204,7 @@
     <UL>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="FXMLMyDiaryController.java"><param name="Local" value="_f_x_m_l_my_diary_controller_8java.html"><param name="ImageNumber" value="11"></OBJECT>
       <UL>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="com.example.myheadachediary.controler.FXMLMyDiaryController"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller.html"><param name="ImageNumber" value="1"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="com.example.myheadachediary.view.FXMLMyDiaryController"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="checkBokReboot"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller.html#a1c3945604348b94fcb4ede0ec3e01ca8"><param name="ImageNumber" value="11"></OBJECT>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="onClickAddHeadache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller.html#a32c7fecc264106e2737c555ad383ca2d"><param name="ImageNumber" value="11"></OBJECT>
@@ -213,14 +213,14 @@
       </UL>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="HeadacheDiaryApplication.java"><param name="Local" value="_headache_diary_application_8java.html"><param name="ImageNumber" value="11"></OBJECT>
       <UL>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="com.example.myheadachediary.HeadacheDiaryApplication"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1_headache_diary_application.html"><param name="ImageNumber" value="1"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="com.example.myheadachediary.view.HeadacheDiaryApplication"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1_headache_diary_application.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
         <LI><OBJECT type="text/sitemap"><param name="Name" value="start"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1_headache_diary_application.html#af75762cc827d84fdd8275fa3249e5f90"><param name="ImageNumber" value="11"></OBJECT>
         </UL>
       </UL>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="LauncherApp.java"><param name="Local" value="_launcher_app_8java.html"><param name="ImageNumber" value="11"></OBJECT>
       <UL>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="com.example.myheadachediary.LauncherApp"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1_launcher_app.html"><param name="ImageNumber" value="1"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="com.example.myheadachediary.tools.LauncherApp"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1_launcher_app.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
         </UL>
       </UL>
@@ -284,7 +284,7 @@
       </UL>
     <LI><OBJECT type="text/sitemap"><param name="Name" value="SerializeToXML.java"><param name="Local" value="_serialize_to_x_m_l_8java.html"><param name="ImageNumber" value="11"></OBJECT>
       <UL>
-      <LI><OBJECT type="text/sitemap"><param name="Name" value="com.example.myheadachediary.model.SerializeToXML"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_serialize_to_x_m_l.html"><param name="ImageNumber" value="1"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="com.example.myheadachediary.tools.SerializeToXML"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_serialize_to_x_m_l.html"><param name="ImageNumber" value="1"></OBJECT>
         <UL>
         </UL>
       </UL>

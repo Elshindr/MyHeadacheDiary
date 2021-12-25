@@ -5,7 +5,7 @@
       <sectiondef kind="private-static-attrib">
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_serialize_to_x_m_l_1a5e7c83ac405e45c381af242299d84db1" prot="private" static="yes" mutable="no">
         <type>final String</type>
-        <definition>final String com.example.myheadachediary.model.SerializeToXML.SERIALIZED_FILE_NAME</definition>
+        <definition>final String com.example.myheadachediary.tools.SerializeToXML.SERIALIZED_FILE_NAME</definition>
         <argsstring></argsstring>
         <name>SERIALIZED_FILE_NAME</name>
         <initializer>= &quot;MyHeadacheDiary_XML.xml&quot;</initializer>
@@ -21,7 +21,7 @@
       <sectiondef kind="private-func">
       <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_serialize_to_x_m_l_1a3c14aa7e0d828247dbb804879111dc63" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
-        <definition>com.example.myheadachediary.model.SerializeToXML.SerializeToXML</definition>
+        <definition>com.example.myheadachediary.tools.SerializeToXML.SerializeToXML</definition>
         <argsstring>()</argsstring>
         <name>SerializeToXML</name>
         <briefdescription>
@@ -36,7 +36,7 @@
       <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_serialize_to_x_m_l_1a0e3a78c0108c610fd3940893878ffac5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
-        <definition>static void com.example.myheadachediary.model.SerializeToXML.saveToXML</definition>
+        <definition>static void com.example.myheadachediary.tools.SerializeToXML.saveToXML</definition>
         <argsstring>(List&lt; Headache &gt; lstHeadache)</argsstring>
         <name>saveToXML</name>
         <param>
@@ -54,7 +54,7 @@
       </memberdef>
       <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_serialize_to_x_m_l_1a2a689c39c3805f73b927779c8be4367d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>Object</type>
-        <definition>static Object com.example.myheadachediary.model.SerializeToXML.loadFromXML</definition>
+        <definition>static Object com.example.myheadachediary.tools.SerializeToXML.loadFromXML</definition>
         <argsstring>()</argsstring>
         <name>loadFromXML</name>
         <exceptions> throws IOException </exceptions>

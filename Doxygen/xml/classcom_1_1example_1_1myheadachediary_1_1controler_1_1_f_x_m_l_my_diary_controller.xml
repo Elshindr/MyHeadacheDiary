@@ -5,7 +5,7 @@
       <sectiondef kind="private-attrib">
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1aacb93c9ae8b821b131f509871a85cd4d" prot="private" static="no" mutable="no">
         <type>List&lt; <ref refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache" kindref="compound">Headache</ref> &gt;</type>
-        <definition>List&lt;Headache&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.lstHeadaches</definition>
+        <definition>List&lt;Headache&gt; com.example.myheadachediary.view.FXMLMyDiaryController.lstHeadaches</definition>
         <argsstring></argsstring>
         <name>lstHeadaches</name>
         <initializer>= new ArrayList&lt;&gt;()</initializer>
@@ -19,7 +19,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a6b33c1a4ec497b7f32fa3b2341a16817" prot="private" static="no" mutable="no">
         <type>final List&lt; <ref refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode" kindref="compound">Episode</ref> &gt;</type>
-        <definition>final List&lt;Episode&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.lstEpisodes</definition>
+        <definition>final List&lt;Episode&gt; com.example.myheadachediary.view.FXMLMyDiaryController.lstEpisodes</definition>
         <argsstring></argsstring>
         <name>lstEpisodes</name>
         <initializer>= new ArrayList&lt;&gt;()</initializer>
@@ -33,7 +33,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a5b13abb0c28b962b3aac537879fbb08f" prot="private" static="no" mutable="no">
         <type>DatePicker</type>
-        <definition>DatePicker com.example.myheadachediary.controler.FXMLMyDiaryController.dayStart</definition>
+        <definition>DatePicker com.example.myheadachediary.view.FXMLMyDiaryController.dayStart</definition>
         <argsstring></argsstring>
         <name>dayStart</name>
         <briefdescription>
@@ -46,7 +46,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a09da13b5a37b13db0bce391e6474620e" prot="private" static="no" mutable="no">
         <type>DatePicker</type>
-        <definition>DatePicker com.example.myheadachediary.controler.FXMLMyDiaryController.dayEnd</definition>
+        <definition>DatePicker com.example.myheadachediary.view.FXMLMyDiaryController.dayEnd</definition>
         <argsstring></argsstring>
         <name>dayEnd</name>
         <briefdescription>
@@ -59,7 +59,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a5b0801942bfc9d85728f885f83b06f11" prot="private" static="no" mutable="no">
         <type>Spinner&lt; Integer &gt;</type>
-        <definition>Spinner&lt;Integer&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.spinStartHour</definition>
+        <definition>Spinner&lt;Integer&gt; com.example.myheadachediary.view.FXMLMyDiaryController.spinStartHour</definition>
         <argsstring></argsstring>
         <name>spinStartHour</name>
         <briefdescription>
@@ -72,7 +72,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1aaba80fd0489ea740fc3b9c3f906f7dcb" prot="private" static="no" mutable="no">
         <type>Spinner&lt; Integer &gt;</type>
-        <definition>Spinner&lt;Integer&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.spinEndHour</definition>
+        <definition>Spinner&lt;Integer&gt; com.example.myheadachediary.view.FXMLMyDiaryController.spinEndHour</definition>
         <argsstring></argsstring>
         <name>spinEndHour</name>
         <briefdescription>
@@ -85,7 +85,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a6bf5a25c60381f9df26d73a6ddcba9cc" prot="private" static="no" mutable="no">
         <type>Spinner&lt; Integer &gt;</type>
-        <definition>Spinner&lt;Integer&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.spinStartMin</definition>
+        <definition>Spinner&lt;Integer&gt; com.example.myheadachediary.view.FXMLMyDiaryController.spinStartMin</definition>
         <argsstring></argsstring>
         <name>spinStartMin</name>
         <briefdescription>
@@ -98,7 +98,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1ab182887482adde80e3bb567202539009" prot="private" static="no" mutable="no">
         <type>Spinner&lt; Integer &gt;</type>
-        <definition>Spinner&lt;Integer&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.spinEndMin</definition>
+        <definition>Spinner&lt;Integer&gt; com.example.myheadachediary.view.FXMLMyDiaryController.spinEndMin</definition>
         <argsstring></argsstring>
         <name>spinEndMin</name>
         <briefdescription>
@@ -111,7 +111,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a0118d0c03325e04d5245a0f11b544375" prot="private" static="no" mutable="no">
         <type>ChoiceBox&lt; String &gt;</type>
-        <definition>ChoiceBox&lt;String&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.cobSeverity</definition>
+        <definition>ChoiceBox&lt;String&gt; com.example.myheadachediary.view.FXMLMyDiaryController.cobSeverity</definition>
         <argsstring></argsstring>
         <name>cobSeverity</name>
         <briefdescription>
@@ -124,7 +124,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a3b55423fe3838b488312abe1d7936a80" prot="private" static="no" mutable="no">
         <type>ChoiceBox&lt; String &gt;</type>
-        <definition>ChoiceBox&lt;String&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.cobDizziness</definition>
+        <definition>ChoiceBox&lt;String&gt; com.example.myheadachediary.view.FXMLMyDiaryController.cobDizziness</definition>
         <argsstring></argsstring>
         <name>cobDizziness</name>
         <briefdescription>
@@ -137,7 +137,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1ac5da2bec1a772e524ca1dad50ab9c1fb" prot="private" static="no" mutable="no">
         <type>ChoiceBox&lt; String &gt;</type>
-        <definition>ChoiceBox&lt;String&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.cobAura</definition>
+        <definition>ChoiceBox&lt;String&gt; com.example.myheadachediary.view.FXMLMyDiaryController.cobAura</definition>
         <argsstring></argsstring>
         <name>cobAura</name>
         <briefdescription>
@@ -150,7 +150,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a32248bd6e11aaf2796bc51c1e06a5490" prot="private" static="no" mutable="no">
         <type>ChoiceBox&lt; String &gt;</type>
-        <definition>ChoiceBox&lt;String&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.cobNausea</definition>
+        <definition>ChoiceBox&lt;String&gt; com.example.myheadachediary.view.FXMLMyDiaryController.cobNausea</definition>
         <argsstring></argsstring>
         <name>cobNausea</name>
         <briefdescription>
@@ -163,7 +163,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1aac6391af75a912727e9c7c420b4a8ee0" prot="private" static="no" mutable="no">
         <type>ChoiceBox&lt; String &gt;</type>
-        <definition>ChoiceBox&lt;String&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.cobSideHeadache</definition>
+        <definition>ChoiceBox&lt;String&gt; com.example.myheadachediary.view.FXMLMyDiaryController.cobSideHeadache</definition>
         <argsstring></argsstring>
         <name>cobSideHeadache</name>
         <briefdescription>
@@ -176,7 +176,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1ab97b3f5848e6dfcbadc0f75e7db0fdfe" prot="private" static="no" mutable="no">
         <type>TextArea</type>
-        <definition>TextArea com.example.myheadachediary.controler.FXMLMyDiaryController.txtAOther</definition>
+        <definition>TextArea com.example.myheadachediary.view.FXMLMyDiaryController.txtAOther</definition>
         <argsstring></argsstring>
         <name>txtAOther</name>
         <briefdescription>
@@ -189,7 +189,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1ab36ede954c8346c3e6cadefea9b32228" prot="private" static="no" mutable="no">
         <type>CheckBox</type>
-        <definition>CheckBox com.example.myheadachediary.controler.FXMLMyDiaryController.chkHypLight</definition>
+        <definition>CheckBox com.example.myheadachediary.view.FXMLMyDiaryController.chkHypLight</definition>
         <argsstring></argsstring>
         <name>chkHypLight</name>
         <briefdescription>
@@ -202,7 +202,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a7f70cb9c21ad60bb00009d8f0f3877e1" prot="private" static="no" mutable="no">
         <type>CheckBox</type>
-        <definition>CheckBox com.example.myheadachediary.controler.FXMLMyDiaryController.chkHypSound</definition>
+        <definition>CheckBox com.example.myheadachediary.view.FXMLMyDiaryController.chkHypSound</definition>
         <argsstring></argsstring>
         <name>chkHypSound</name>
         <briefdescription>
@@ -215,7 +215,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a4bc77ed55484508662fd48ff48d893e9" prot="private" static="no" mutable="no">
         <type>CheckBox</type>
-        <definition>CheckBox com.example.myheadachediary.controler.FXMLMyDiaryController.chkHypMovement</definition>
+        <definition>CheckBox com.example.myheadachediary.view.FXMLMyDiaryController.chkHypMovement</definition>
         <argsstring></argsstring>
         <name>chkHypMovement</name>
         <briefdescription>
@@ -228,7 +228,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1aef7366b07a8fb748023cc1a0e5e47682" prot="private" static="no" mutable="no">
         <type>CheckBox</type>
-        <definition>CheckBox com.example.myheadachediary.controler.FXMLMyDiaryController.chkHypSmell</definition>
+        <definition>CheckBox com.example.myheadachediary.view.FXMLMyDiaryController.chkHypSmell</definition>
         <argsstring></argsstring>
         <name>chkHypSmell</name>
         <briefdescription>
@@ -241,7 +241,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1af3fbc953a11dcfbb1b85d6f473ddbd4a" prot="private" static="no" mutable="no">
         <type>CheckBox</type>
-        <definition>CheckBox com.example.myheadachediary.controler.FXMLMyDiaryController.chkTrigLight</definition>
+        <definition>CheckBox com.example.myheadachediary.view.FXMLMyDiaryController.chkTrigLight</definition>
         <argsstring></argsstring>
         <name>chkTrigLight</name>
         <briefdescription>
@@ -254,7 +254,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a95eb846733079c026485fe908c25fed1" prot="private" static="no" mutable="no">
         <type>CheckBox</type>
-        <definition>CheckBox com.example.myheadachediary.controler.FXMLMyDiaryController.chkTrigSound</definition>
+        <definition>CheckBox com.example.myheadachediary.view.FXMLMyDiaryController.chkTrigSound</definition>
         <argsstring></argsstring>
         <name>chkTrigSound</name>
         <briefdescription>
@@ -267,7 +267,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1acb645f8f787d21a3aa2540496b1dbc32" prot="private" static="no" mutable="no">
         <type>CheckBox</type>
-        <definition>CheckBox com.example.myheadachediary.controler.FXMLMyDiaryController.chkTrigSleep</definition>
+        <definition>CheckBox com.example.myheadachediary.view.FXMLMyDiaryController.chkTrigSleep</definition>
         <argsstring></argsstring>
         <name>chkTrigSleep</name>
         <briefdescription>
@@ -280,7 +280,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a60bc81d3576c6e19e3abba8a7acdf7d5" prot="private" static="no" mutable="no">
         <type>CheckBox</type>
-        <definition>CheckBox com.example.myheadachediary.controler.FXMLMyDiaryController.chkTrigLake</definition>
+        <definition>CheckBox com.example.myheadachediary.view.FXMLMyDiaryController.chkTrigLake</definition>
         <argsstring></argsstring>
         <name>chkTrigLake</name>
         <briefdescription>
@@ -293,7 +293,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a7569e02061d2d84da10d964729ae38ef" prot="private" static="no" mutable="no">
         <type>CheckBox</type>
-        <definition>CheckBox com.example.myheadachediary.controler.FXMLMyDiaryController.chkTrigPeriod</definition>
+        <definition>CheckBox com.example.myheadachediary.view.FXMLMyDiaryController.chkTrigPeriod</definition>
         <argsstring></argsstring>
         <name>chkTrigPeriod</name>
         <briefdescription>
@@ -306,7 +306,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a9172209cc755c93de8cfee739fece6ac" prot="private" static="no" mutable="no">
         <type>CheckBox</type>
-        <definition>CheckBox com.example.myheadachediary.controler.FXMLMyDiaryController.chkTrigOther</definition>
+        <definition>CheckBox com.example.myheadachediary.view.FXMLMyDiaryController.chkTrigOther</definition>
         <argsstring></argsstring>
         <name>chkTrigOther</name>
         <briefdescription>
@@ -319,7 +319,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1aa33338520813e33c07c0763e364cdaf5" prot="private" static="no" mutable="no">
         <type>TextField</type>
-        <definition>TextField com.example.myheadachediary.controler.FXMLMyDiaryController.txtTrigOther</definition>
+        <definition>TextField com.example.myheadachediary.view.FXMLMyDiaryController.txtTrigOther</definition>
         <argsstring></argsstring>
         <name>txtTrigOther</name>
         <briefdescription>
@@ -332,7 +332,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a0456022769d850bbb01677f22fa02119" prot="private" static="no" mutable="no">
         <type>CheckBox</type>
-        <definition>CheckBox com.example.myheadachediary.controler.FXMLMyDiaryController.chkMedIbup</definition>
+        <definition>CheckBox com.example.myheadachediary.view.FXMLMyDiaryController.chkMedIbup</definition>
         <argsstring></argsstring>
         <name>chkMedIbup</name>
         <briefdescription>
@@ -345,7 +345,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a910e71fb544a7765c75a68fc2b3e8a3a" prot="private" static="no" mutable="no">
         <type>CheckBox</type>
-        <definition>CheckBox com.example.myheadachediary.controler.FXMLMyDiaryController.chkMedPara</definition>
+        <definition>CheckBox com.example.myheadachediary.view.FXMLMyDiaryController.chkMedPara</definition>
         <argsstring></argsstring>
         <name>chkMedPara</name>
         <briefdescription>
@@ -358,7 +358,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1af17d0e31a8b6ae7815da3de7b2798324" prot="private" static="no" mutable="no">
         <type>CheckBox</type>
-        <definition>CheckBox com.example.myheadachediary.controler.FXMLMyDiaryController.chkMedTrip</definition>
+        <definition>CheckBox com.example.myheadachediary.view.FXMLMyDiaryController.chkMedTrip</definition>
         <argsstring></argsstring>
         <name>chkMedTrip</name>
         <briefdescription>
@@ -371,7 +371,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a0575517d42c9a4a3a72797a2f94be0e3" prot="private" static="no" mutable="no">
         <type>CheckBox</type>
-        <definition>CheckBox com.example.myheadachediary.controler.FXMLMyDiaryController.chkMedOther</definition>
+        <definition>CheckBox com.example.myheadachediary.view.FXMLMyDiaryController.chkMedOther</definition>
         <argsstring></argsstring>
         <name>chkMedOther</name>
         <briefdescription>
@@ -384,7 +384,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a34f246060efa58e065988ad4529d5cbe" prot="private" static="no" mutable="no">
         <type>TextField</type>
-        <definition>TextField com.example.myheadachediary.controler.FXMLMyDiaryController.txtMedOther</definition>
+        <definition>TextField com.example.myheadachediary.view.FXMLMyDiaryController.txtMedOther</definition>
         <argsstring></argsstring>
         <name>txtMedOther</name>
         <briefdescription>
@@ -397,7 +397,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a3b3dfc8dabe9133689e9b928a38f371a" prot="private" static="no" mutable="no">
         <type>Spinner&lt; Integer &gt;</type>
-        <definition>Spinner&lt;Integer&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.spinMedIbup</definition>
+        <definition>Spinner&lt;Integer&gt; com.example.myheadachediary.view.FXMLMyDiaryController.spinMedIbup</definition>
         <argsstring></argsstring>
         <name>spinMedIbup</name>
         <briefdescription>
@@ -410,7 +410,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1af24b75d75bbd1a1420884ac98101fa10" prot="private" static="no" mutable="no">
         <type>Spinner&lt; Integer &gt;</type>
-        <definition>Spinner&lt;Integer&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.spinMedPara</definition>
+        <definition>Spinner&lt;Integer&gt; com.example.myheadachediary.view.FXMLMyDiaryController.spinMedPara</definition>
         <argsstring></argsstring>
         <name>spinMedPara</name>
         <briefdescription>
@@ -423,7 +423,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1abfbdc3c048697f376ffa161c1974e747" prot="private" static="no" mutable="no">
         <type>Spinner&lt; Integer &gt;</type>
-        <definition>Spinner&lt;Integer&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.spinMedTrip</definition>
+        <definition>Spinner&lt;Integer&gt; com.example.myheadachediary.view.FXMLMyDiaryController.spinMedTrip</definition>
         <argsstring></argsstring>
         <name>spinMedTrip</name>
         <briefdescription>
@@ -436,7 +436,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a8bd85be5b18777cb5131144bf1344dbd" prot="private" static="no" mutable="no">
         <type>Spinner&lt; Integer &gt;</type>
-        <definition>Spinner&lt;Integer&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.spinMedOther</definition>
+        <definition>Spinner&lt;Integer&gt; com.example.myheadachediary.view.FXMLMyDiaryController.spinMedOther</definition>
         <argsstring></argsstring>
         <name>spinMedOther</name>
         <briefdescription>
@@ -449,7 +449,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1abbf9808144445f60c3522dd9e7c45663" prot="private" static="no" mutable="no">
         <type>Button</type>
-        <definition>Button com.example.myheadachediary.controler.FXMLMyDiaryController.btnAddHeadache</definition>
+        <definition>Button com.example.myheadachediary.view.FXMLMyDiaryController.btnAddHeadache</definition>
         <argsstring></argsstring>
         <name>btnAddHeadache</name>
         <briefdescription>
@@ -462,7 +462,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1ae896f2b62fea74ba28cee37e060b3be5" prot="private" static="no" mutable="no">
         <type>Button</type>
-        <definition>Button com.example.myheadachediary.controler.FXMLMyDiaryController.btnAuto</definition>
+        <definition>Button com.example.myheadachediary.view.FXMLMyDiaryController.btnAuto</definition>
         <argsstring></argsstring>
         <name>btnAuto</name>
         <briefdescription>
@@ -475,7 +475,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1ad343309b000faaf3e03261556feab6ce" prot="private" static="no" mutable="no">
         <type>Label</type>
-        <definition>Label com.example.myheadachediary.controler.FXMLMyDiaryController.lblIssues</definition>
+        <definition>Label com.example.myheadachediary.view.FXMLMyDiaryController.lblIssues</definition>
         <argsstring></argsstring>
         <name>lblIssues</name>
         <briefdescription>
@@ -488,7 +488,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1aa0c6bba3d5f6d67a3e4163096c0461bb" prot="private" static="no" mutable="no">
         <type>TableView&lt; <ref refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache" kindref="compound">Headache</ref> &gt;</type>
-        <definition>TableView&lt;Headache&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.tabHeadache</definition>
+        <definition>TableView&lt;Headache&gt; com.example.myheadachediary.view.FXMLMyDiaryController.tabHeadache</definition>
         <argsstring></argsstring>
         <name>tabHeadache</name>
         <briefdescription>
@@ -501,7 +501,8 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a0f40e22d629e616875af6149f8fbf651" prot="private" static="no" mutable="no">
         <type>TableColumn&lt; <ref refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache" kindref="compound">Headache</ref>, Integer &gt;</type>
-        <definition>TableColumn&lt;Headache, Integer&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.colIdHeadache</definition>
+        <definition>TableColumn&lt;Headache, Integer&gt;
+            com.example.myheadachediary.view.FXMLMyDiaryController.colIdHeadache</definition>
         <argsstring></argsstring>
         <name>colIdHeadache</name>
         <briefdescription>
@@ -514,7 +515,8 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a68755455d176ded1ff00b7f63b5653c0" prot="private" static="no" mutable="no">
         <type>TableColumn&lt; <ref refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache" kindref="compound">Headache</ref>, String &gt;</type>
-        <definition>TableColumn&lt;Headache, String&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.colHdStart</definition>
+        <definition>TableColumn&lt;Headache, String&gt;
+            com.example.myheadachediary.view.FXMLMyDiaryController.colHdStart</definition>
         <argsstring></argsstring>
         <name>colHdStart</name>
         <briefdescription>
@@ -527,7 +529,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a5e3e4b9af44fa788c7df87c4e1acce1a" prot="private" static="no" mutable="no">
         <type>TableColumn&lt; <ref refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache" kindref="compound">Headache</ref>, String &gt;</type>
-        <definition>TableColumn&lt;Headache, String&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.colHdEnd</definition>
+        <definition>TableColumn&lt;Headache, String&gt; com.example.myheadachediary.view.FXMLMyDiaryController.colHdEnd</definition>
         <argsstring></argsstring>
         <name>colHdEnd</name>
         <briefdescription>
@@ -540,7 +542,8 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1aecbb88b85caee26172b1c707a343374d" prot="private" static="no" mutable="no">
         <type>TableColumn&lt; <ref refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache" kindref="compound">Headache</ref>, Integer &gt;</type>
-        <definition>TableColumn&lt;Headache, Integer&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.colHdNbEpisode</definition>
+        <definition>TableColumn&lt;Headache, Integer&gt;
+            com.example.myheadachediary.view.FXMLMyDiaryController.colHdNbEpisode</definition>
         <argsstring></argsstring>
         <name>colHdNbEpisode</name>
         <briefdescription>
@@ -553,7 +556,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1afa1e23a03afeb22c06dbe6900418a6cd" prot="private" static="no" mutable="no">
         <type>TableView&lt; <ref refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode" kindref="compound">Episode</ref> &gt;</type>
-        <definition>TableView&lt;Episode&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.tabEpisodes</definition>
+        <definition>TableView&lt;Episode&gt; com.example.myheadachediary.view.FXMLMyDiaryController.tabEpisodes</definition>
         <argsstring></argsstring>
         <name>tabEpisodes</name>
         <briefdescription>
@@ -566,7 +569,8 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a2da920968df6474941524f18894bd03f" prot="private" static="no" mutable="no">
         <type>TableColumn&lt; <ref refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode" kindref="compound">Episode</ref>, Integer &gt;</type>
-        <definition>TableColumn&lt;Episode, Integer&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.colIdEpisode</definition>
+        <definition>TableColumn&lt;Episode, Integer&gt;
+            com.example.myheadachediary.view.FXMLMyDiaryController.colIdEpisode</definition>
         <argsstring></argsstring>
         <name>colIdEpisode</name>
         <briefdescription>
@@ -579,7 +583,8 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1aea6ea5e916c809581d7985de5afdc354" prot="private" static="no" mutable="no">
         <type>TableColumn&lt; <ref refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode" kindref="compound">Episode</ref>, String &gt;</type>
-        <definition>TableColumn&lt;Episode, String&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.colDateStart</definition>
+        <definition>TableColumn&lt;Episode, String&gt;
+            com.example.myheadachediary.view.FXMLMyDiaryController.colDateStart</definition>
         <argsstring></argsstring>
         <name>colDateStart</name>
         <briefdescription>
@@ -592,7 +597,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1aa1eef1214d8aec3adc82e7891bf3621c" prot="private" static="no" mutable="no">
         <type>TableColumn&lt; <ref refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode" kindref="compound">Episode</ref>, String &gt;</type>
-        <definition>TableColumn&lt;Episode, String&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.colDateEnd</definition>
+        <definition>TableColumn&lt;Episode, String&gt; com.example.myheadachediary.view.FXMLMyDiaryController.colDateEnd</definition>
         <argsstring></argsstring>
         <name>colDateEnd</name>
         <briefdescription>
@@ -605,7 +610,8 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a6131413d0424ed8f09407b119cab1b26" prot="private" static="no" mutable="no">
         <type>TableColumn&lt; <ref refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode" kindref="compound">Episode</ref>, String &gt;</type>
-        <definition>TableColumn&lt;Episode, String&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.colSeverity</definition>
+        <definition>TableColumn&lt;Episode, String&gt;
+            com.example.myheadachediary.view.FXMLMyDiaryController.colSeverity</definition>
         <argsstring></argsstring>
         <name>colSeverity</name>
         <briefdescription>
@@ -618,7 +624,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a349ca55ef715be5fbe2fbc6112f51bb5" prot="private" static="no" mutable="no">
         <type>TableColumn&lt; <ref refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode" kindref="compound">Episode</ref>, String &gt;</type>
-        <definition>TableColumn&lt;Episode, String&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.colAura</definition>
+        <definition>TableColumn&lt;Episode, String&gt; com.example.myheadachediary.view.FXMLMyDiaryController.colAura</definition>
         <argsstring></argsstring>
         <name>colAura</name>
         <briefdescription>
@@ -631,7 +637,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a0febb79ca850719298caa655fce66e48" prot="private" static="no" mutable="no">
         <type>TableColumn&lt; <ref refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode" kindref="compound">Episode</ref>, String &gt;</type>
-        <definition>TableColumn&lt;Episode, String&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.colNausea</definition>
+        <definition>TableColumn&lt;Episode, String&gt; com.example.myheadachediary.view.FXMLMyDiaryController.colNausea</definition>
         <argsstring></argsstring>
         <name>colNausea</name>
         <briefdescription>
@@ -644,7 +650,8 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1ab5d78d710b997eaefb8e82e61fff7ca6" prot="private" static="no" mutable="no">
         <type>TableColumn&lt; <ref refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode" kindref="compound">Episode</ref>, String &gt;</type>
-        <definition>TableColumn&lt;Episode, String&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.colDizziness</definition>
+        <definition>TableColumn&lt;Episode, String&gt;
+            com.example.myheadachediary.view.FXMLMyDiaryController.colDizziness</definition>
         <argsstring></argsstring>
         <name>colDizziness</name>
         <briefdescription>
@@ -657,7 +664,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a5b8cd9d33edce979f9c4bd1860ea9a0d" prot="private" static="no" mutable="no">
         <type>TableColumn&lt; <ref refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode" kindref="compound">Episode</ref>, String &gt;</type>
-        <definition>TableColumn&lt;Episode, String&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.colSide</definition>
+        <definition>TableColumn&lt;Episode, String&gt; com.example.myheadachediary.view.FXMLMyDiaryController.colSide</definition>
         <argsstring></argsstring>
         <name>colSide</name>
         <briefdescription>
@@ -670,7 +677,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1ad02a60bd5db363c6634c88b550d16db5" prot="private" static="no" mutable="no">
         <type>TableColumn&lt; <ref refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode" kindref="compound">Episode</ref>, String &gt;</type>
-        <definition>TableColumn&lt;Episode, String&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.colHyper</definition>
+        <definition>TableColumn&lt;Episode, String&gt; com.example.myheadachediary.view.FXMLMyDiaryController.colHyper</definition>
         <argsstring></argsstring>
         <name>colHyper</name>
         <briefdescription>
@@ -683,7 +690,8 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1aa43bf206ad28854b5324d6df8ca12197" prot="private" static="no" mutable="no">
         <type>TableColumn&lt; <ref refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode" kindref="compound">Episode</ref>, String &gt;</type>
-        <definition>TableColumn&lt;Episode, String&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.colOtherSymp</definition>
+        <definition>TableColumn&lt;Episode, String&gt;
+            com.example.myheadachediary.view.FXMLMyDiaryController.colOtherSymp</definition>
         <argsstring></argsstring>
         <name>colOtherSymp</name>
         <briefdescription>
@@ -696,7 +704,8 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a68d2d7e8c4b9050db559141dc12069a8" prot="private" static="no" mutable="no">
         <type>TableColumn&lt; <ref refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode" kindref="compound">Episode</ref>, String &gt;</type>
-        <definition>TableColumn&lt;Episode, String&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.colTriggers</definition>
+        <definition>TableColumn&lt;Episode, String&gt;
+            com.example.myheadachediary.view.FXMLMyDiaryController.colTriggers</definition>
         <argsstring></argsstring>
         <name>colTriggers</name>
         <briefdescription>
@@ -709,7 +718,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a36e3120e2e8bbec13bdb78cf34501588" prot="private" static="no" mutable="no">
         <type>TableColumn&lt; <ref refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode" kindref="compound">Episode</ref>, String &gt;</type>
-        <definition>TableColumn&lt;Episode, String&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.colMed</definition>
+        <definition>TableColumn&lt;Episode, String&gt; com.example.myheadachediary.view.FXMLMyDiaryController.colMed</definition>
         <argsstring></argsstring>
         <name>colMed</name>
         <briefdescription>
@@ -724,7 +733,7 @@
       <sectiondef kind="package-attrib">
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a1010c1326e5656fd604c678e2cfaf0bb" prot="package" static="no" mutable="no">
         <type>ObservableList&lt; <ref refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache" kindref="compound">Headache</ref> &gt;</type>
-        <definition>ObservableList&lt;Headache&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.obsLstHd</definition>
+        <definition>ObservableList&lt;Headache&gt; com.example.myheadachediary.view.FXMLMyDiaryController.obsLstHd</definition>
         <argsstring></argsstring>
         <name>obsLstHd</name>
         <initializer>= FXCollections.observableArrayList()</initializer>
@@ -738,7 +747,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a76ae322eb959548752d70f4932313571" prot="package" static="no" mutable="no">
         <type>ObservableList&lt; <ref refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode" kindref="compound">Episode</ref> &gt;</type>
-        <definition>ObservableList&lt;Episode&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.obsLstEp</definition>
+        <definition>ObservableList&lt;Episode&gt; com.example.myheadachediary.view.FXMLMyDiaryController.obsLstEp</definition>
         <argsstring></argsstring>
         <name>obsLstEp</name>
         <initializer>= FXCollections.observableArrayList()</initializer>
@@ -752,7 +761,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a5ad9779bd8f21888e1b39d20c7c08b7c" prot="package" static="no" mutable="no">
         <type>String[]</type>
-        <definition>String [] com.example.myheadachediary.controler.FXMLMyDiaryController.tabSymp</definition>
+        <definition>String [] com.example.myheadachediary.view.FXMLMyDiaryController.tabSymp</definition>
         <argsstring></argsstring>
         <name>tabSymp</name>
         <initializer>= {&quot;None&quot;, &quot;Mild&quot;, &quot;Moderate&quot;, &quot;Severe&quot;, &quot;Vertigo&quot;, &quot;Vomiting&quot;, &quot;Left&quot;, &quot;Right&quot;, &quot;Both&quot;, &quot;Light&quot;, &quot;Sound&quot;, &quot;Smell&quot;}</initializer>
@@ -766,7 +775,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1acaf424218d98cd39c72b653ae28b7864" prot="package" static="no" mutable="no">
         <type>ObservableList&lt; String &gt;</type>
-        <definition>ObservableList&lt;String&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.obsDiz</definition>
+        <definition>ObservableList&lt;String&gt; com.example.myheadachediary.view.FXMLMyDiaryController.obsDiz</definition>
         <argsstring></argsstring>
         <name>obsDiz</name>
         <initializer>= FXCollections.observableArrayList(tabSymp[0], tabSymp[1], tabSymp[2], tabSymp[4])</initializer>
@@ -780,7 +789,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a505dd6d1ab953c402cee27040e1d8709" prot="package" static="no" mutable="no">
         <type>ObservableList&lt; String &gt;</type>
-        <definition>ObservableList&lt;String&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.obsNausea</definition>
+        <definition>ObservableList&lt;String&gt; com.example.myheadachediary.view.FXMLMyDiaryController.obsNausea</definition>
         <argsstring></argsstring>
         <name>obsNausea</name>
         <initializer>= FXCollections.observableArrayList(tabSymp[0], tabSymp[1], tabSymp[2], tabSymp[5])</initializer>
@@ -794,7 +803,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1abe273f3648d2ccd7ad04d3d4e9fdf041" prot="package" static="no" mutable="no">
         <type>ObservableList&lt; String &gt;</type>
-        <definition>ObservableList&lt;String&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.obsAura</definition>
+        <definition>ObservableList&lt;String&gt; com.example.myheadachediary.view.FXMLMyDiaryController.obsAura</definition>
         <argsstring></argsstring>
         <name>obsAura</name>
         <initializer>= FXCollections.observableArrayList(tabSymp[0], tabSymp[1], tabSymp[2])</initializer>
@@ -808,7 +817,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1aecd81301231c428f73078c83b4c029f3" prot="package" static="no" mutable="no">
         <type>ObservableList&lt; String &gt;</type>
-        <definition>ObservableList&lt;String&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.obsSevere</definition>
+        <definition>ObservableList&lt;String&gt; com.example.myheadachediary.view.FXMLMyDiaryController.obsSevere</definition>
         <argsstring></argsstring>
         <name>obsSevere</name>
         <initializer>= FXCollections.observableArrayList(tabSymp[1], tabSymp[2], tabSymp[3])</initializer>
@@ -822,7 +831,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1ac68bc38335319bb863ee916cd3be66e6" prot="package" static="no" mutable="no">
         <type>ObservableList&lt; String &gt;</type>
-        <definition>ObservableList&lt;String&gt; com.example.myheadachediary.controler.FXMLMyDiaryController.obsSide</definition>
+        <definition>ObservableList&lt;String&gt; com.example.myheadachediary.view.FXMLMyDiaryController.obsSide</definition>
         <argsstring></argsstring>
         <name>obsSide</name>
         <initializer>= FXCollections.observableArrayList(tabSymp[6], tabSymp[7], tabSymp[8])</initializer>
@@ -836,7 +845,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a8b0cad5f651d3cdee3422345689aefbf" prot="package" static="no" mutable="no">
         <type>ToggleButton</type>
-        <definition>ToggleButton com.example.myheadachediary.controler.FXMLMyDiaryController.togglebtnAddHeadache</definition>
+        <definition>ToggleButton com.example.myheadachediary.view.FXMLMyDiaryController.togglebtnAddHeadache</definition>
         <argsstring></argsstring>
         <name>togglebtnAddHeadache</name>
         <briefdescription>
@@ -849,7 +858,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1ad0a26f57de6e4fa74f5edd61decb519b" prot="package" static="no" mutable="no">
         <type>ToggleButton</type>
-        <definition>ToggleButton com.example.myheadachediary.controler.FXMLMyDiaryController.togglebtnAddEpisode</definition>
+        <definition>ToggleButton com.example.myheadachediary.view.FXMLMyDiaryController.togglebtnAddEpisode</definition>
         <argsstring></argsstring>
         <name>togglebtnAddEpisode</name>
         <briefdescription>
@@ -862,7 +871,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a3e9dee4a9a0fdf080b5449864d94e8f2" prot="package" static="no" mutable="no">
         <type>String</type>
-        <definition>String com.example.myheadachediary.controler.FXMLMyDiaryController.severity</definition>
+        <definition>String com.example.myheadachediary.view.FXMLMyDiaryController.severity</definition>
         <argsstring></argsstring>
         <name>severity</name>
         <briefdescription>
@@ -875,7 +884,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1ac1c56faf2258d889d5f0c55db8a8754d" prot="package" static="no" mutable="no">
         <type>String</type>
-        <definition>String com.example.myheadachediary.controler.FXMLMyDiaryController.dizziness</definition>
+        <definition>String com.example.myheadachediary.view.FXMLMyDiaryController.dizziness</definition>
         <argsstring></argsstring>
         <name>dizziness</name>
         <briefdescription>
@@ -888,7 +897,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a211f0b62850d5e800603348746d0b7e5" prot="package" static="no" mutable="no">
         <type>String</type>
-        <definition>String com.example.myheadachediary.controler.FXMLMyDiaryController.aura</definition>
+        <definition>String com.example.myheadachediary.view.FXMLMyDiaryController.aura</definition>
         <argsstring></argsstring>
         <name>aura</name>
         <briefdescription>
@@ -901,7 +910,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1aaa7f9be3e8850eabbd4c0fef4989a16c" prot="package" static="no" mutable="no">
         <type>String</type>
-        <definition>String com.example.myheadachediary.controler.FXMLMyDiaryController.nausea</definition>
+        <definition>String com.example.myheadachediary.view.FXMLMyDiaryController.nausea</definition>
         <argsstring></argsstring>
         <name>nausea</name>
         <briefdescription>
@@ -914,7 +923,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a8c0592d8aee26c9163760e6c76f9c869" prot="package" static="no" mutable="no">
         <type>String</type>
-        <definition>String com.example.myheadachediary.controler.FXMLMyDiaryController.sideHeadache</definition>
+        <definition>String com.example.myheadachediary.view.FXMLMyDiaryController.sideHeadache</definition>
         <argsstring></argsstring>
         <name>sideHeadache</name>
         <briefdescription>
@@ -927,7 +936,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a3bcf32a04db366eee12614d4dca2d20a" prot="package" static="no" mutable="no">
         <type>String</type>
-        <definition>String com.example.myheadachediary.controler.FXMLMyDiaryController.otherSymp</definition>
+        <definition>String com.example.myheadachediary.view.FXMLMyDiaryController.otherSymp</definition>
         <argsstring></argsstring>
         <name>otherSymp</name>
         <briefdescription>
@@ -940,7 +949,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a92317e53caf53e8eb46241c8a4dfa8e9" prot="package" static="no" mutable="no">
         <type>String</type>
-        <definition>String com.example.myheadachediary.controler.FXMLMyDiaryController.hypersensibility</definition>
+        <definition>String com.example.myheadachediary.view.FXMLMyDiaryController.sensibility</definition>
         <argsstring></argsstring>
         <name>hypersensibility</name>
         <briefdescription>
@@ -953,7 +962,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1ab44332327f5bee4c74c09e852f43d749" prot="package" static="no" mutable="no">
         <type>String</type>
-        <definition>String com.example.myheadachediary.controler.FXMLMyDiaryController.triggers</definition>
+        <definition>String com.example.myheadachediary.view.FXMLMyDiaryController.triggers</definition>
         <argsstring></argsstring>
         <name>triggers</name>
         <briefdescription>
@@ -966,7 +975,7 @@
       </memberdef>
       <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a51d8613f6bbb9b6ec2791bba3e2e7291" prot="package" static="no" mutable="no">
         <type>String</type>
-        <definition>String com.example.myheadachediary.controler.FXMLMyDiaryController.medication</definition>
+        <definition>String com.example.myheadachediary.view.FXMLMyDiaryController.medication</definition>
         <argsstring></argsstring>
         <name>medication</name>
         <briefdescription>
@@ -981,7 +990,7 @@
       <sectiondef kind="private-func">
       <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a0a7ff07dec47876674666b086575e4d1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
-        <definition>void com.example.myheadachediary.controler.FXMLMyDiaryController.initialize</definition>
+        <definition>void com.example.myheadachediary.view.FXMLMyDiaryController.initialize</definition>
         <argsstring>()</argsstring>
         <name>initialize</name>
         <briefdescription>
@@ -994,7 +1003,7 @@
       </memberdef>
       <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1aebd0f006d5d637c2d4dcd403b8a017d1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>LocalDateTime</type>
-        <definition>LocalDateTime com.example.myheadachediary.controler.FXMLMyDiaryController.getDateHeadache</definition>
+        <definition>LocalDateTime com.example.myheadachediary.view.FXMLMyDiaryController.getDateHeadache</definition>
         <argsstring>(LocalDate day, int hours, int minutes)</argsstring>
         <name>getDateHeadache</name>
         <param>
@@ -1019,7 +1028,7 @@
       </memberdef>
       <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a25de8f5529fca27321274167ab9d9d63" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
-        <definition>void com.example.myheadachediary.controler.FXMLMyDiaryController.checkHypersensibility</definition>
+        <definition>void com.example.myheadachediary.view.FXMLMyDiaryController.checkHypersensibility</definition>
         <argsstring>()</argsstring>
         <name>checkHypersensibility</name>
         <briefdescription>
@@ -1032,7 +1041,7 @@
       </memberdef>
       <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a2926a3a985fdedad819c91ece78646c0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
-        <definition>void com.example.myheadachediary.controler.FXMLMyDiaryController.checkPotentialsTriggers</definition>
+        <definition>void com.example.myheadachediary.view.FXMLMyDiaryController.checkPotentialsTriggers</definition>
         <argsstring>()</argsstring>
         <name>checkPotentialsTriggers</name>
         <briefdescription>
@@ -1045,7 +1054,7 @@
       </memberdef>
       <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a839f575ce61effe48d3a624c0b4d6a84" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
-        <definition>void com.example.myheadachediary.controler.FXMLMyDiaryController.checkMedication</definition>
+        <definition>void com.example.myheadachediary.view.FXMLMyDiaryController.checkMedication</definition>
         <argsstring>()</argsstring>
         <name>checkMedication</name>
         <briefdescription>
@@ -1058,7 +1067,7 @@
       </memberdef>
       <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1ac813c8bc61a8f20ea28aaaf3f7f06d98" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
-        <definition>void com.example.myheadachediary.controler.FXMLMyDiaryController.dayInitialize</definition>
+        <definition>void com.example.myheadachediary.view.FXMLMyDiaryController.dayInitialize</definition>
         <argsstring>()</argsstring>
         <name>dayInitialize</name>
         <briefdescription>
@@ -1071,7 +1080,7 @@
       </memberdef>
       <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1ab4f32498a62118690d331162bb8927c8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
-        <definition>void com.example.myheadachediary.controler.FXMLMyDiaryController.symptomInitialize</definition>
+        <definition>void com.example.myheadachediary.view.FXMLMyDiaryController.symptomInitialize</definition>
         <argsstring>()</argsstring>
         <name>symptomInitialize</name>
         <briefdescription>
@@ -1084,7 +1093,7 @@
       </memberdef>
       <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a5a00553bf098d15bb405fd3bac1d357c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
-        <definition>void com.example.myheadachediary.controler.FXMLMyDiaryController.medicationInitialize</definition>
+        <definition>void com.example.myheadachediary.view.FXMLMyDiaryController.medicationInitialize</definition>
         <argsstring>()</argsstring>
         <name>medicationInitialize</name>
         <briefdescription>
@@ -1097,7 +1106,7 @@
       </memberdef>
       <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a5911502eaa3d0777d1a8b70cda7aede6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
-        <definition>void com.example.myheadachediary.controler.FXMLMyDiaryController.tabDiaryInitialize</definition>
+        <definition>void com.example.myheadachediary.view.FXMLMyDiaryController.tabDiaryInitialize</definition>
         <argsstring>()</argsstring>
         <name>tabDiaryInitialize</name>
         <briefdescription>
@@ -1112,7 +1121,7 @@
       <sectiondef kind="protected-func">
       <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a32c7fecc264106e2737c555ad383ca2d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
-        <definition>void com.example.myheadachediary.controler.FXMLMyDiaryController.onClickAddHeadache</definition>
+        <definition>void com.example.myheadachediary.view.FXMLMyDiaryController.onClickAddHeadache</definition>
         <argsstring>()</argsstring>
         <name>onClickAddHeadache</name>
         <briefdescription>
@@ -1125,7 +1134,7 @@
       </memberdef>
       <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a693a9ec4df9ba3d05918a25eb0650116" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
-        <definition>void com.example.myheadachediary.controler.FXMLMyDiaryController.onClickFillLastestSettings</definition>
+        <definition>void com.example.myheadachediary.view.FXMLMyDiaryController.onClickFillLastestSettings</definition>
         <argsstring>()</argsstring>
         <name>onClickFillLastestSettings</name>
         <briefdescription>
@@ -1140,7 +1149,7 @@
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller_1a1c3945604348b94fcb4ede0ec3e01ca8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
-        <definition>void com.example.myheadachediary.controler.FXMLMyDiaryController.checkBokReboot</definition>
+        <definition>void com.example.myheadachediary.view.FXMLMyDiaryController.checkBokReboot</definition>
         <argsstring>()</argsstring>
         <name>checkBokReboot</name>
         <briefdescription>

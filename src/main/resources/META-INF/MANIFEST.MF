@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Main-Class: com.example.myheadachediary.HeadacheDiaryApplication
+Main-Class: com.example.myheadachediary.view.MainMyDiaryApplication
 Class-Path: src.zip javafx-swt.jar javafx.web.jar javafx.base.jar javafx
  .fxml.jar javafx.media.jar javafx.swing.jar javafx.controls.jar javafx.
  graphics.jar javafx-controls-16.jar javafx-controls-16-win.jar javafx-f

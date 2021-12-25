@@ -1,6 +1,7 @@
 package com.example.myheadachediary.model;
 
 import java.io.Serializable;
+import java.util.Dictionary;
 
 /**
  * This Episode Class represent an episode when headache occurs. A Headache can have one or severals episode.
@@ -20,9 +21,7 @@ public class Episode implements Serializable {
     private String aura;
     private String nausea;
     private String sideHeadache;
-    private String otherSymp;
-
-    private String hypersensibility;
+    private String sensibility;
     private String triggers;
 
     private int medIbupf;
@@ -32,6 +31,15 @@ public class Episode implements Serializable {
 
     private String medication;
     private String commentEp;
+    private Dictionary<String, String> dictSymp;
+
+    public Dictionary<String, String> getDictSymp() {
+        return dictSymp;
+    }
+
+    public void setDictSymp(Dictionary<String, String> dictSymp) {
+        this.dictSymp = dictSymp;
+    }
 
     /**
      * This is the constructor Episode method
@@ -42,12 +50,11 @@ public class Episode implements Serializable {
      * @param aura
      * @param nausea
      * @param sideHeadache
-     * @param otherSymp
-     * @param hypersensibility
+     * @param sensibility
      * @param triggers
      * @param medication
-     */
-    public Episode(String date, String dateEnd, String severity, String dizziness, String aura, String nausea, String sideHeadache, String otherSymp, String hypersensibility, String triggers, String medication, String commentEp) {
+
+    public Episode(String date, String dateEnd, String severity, String dizziness, String aura, String nausea, String sideHeadache, String sensibility, String triggers, String medication, String commentEp) {
         super();
         this.dateStart = date;
         this.dateEnd = dateEnd;
@@ -56,8 +63,18 @@ public class Episode implements Serializable {
         this.aura = aura;
         this.nausea = nausea;
         this.sideHeadache = sideHeadache;
-        this.otherSymp = otherSymp;
-        this.hypersensibility = hypersensibility;
+        this.sensibility = sensibility;
+        this.triggers = triggers;
+        this.medication = medication;
+        this.commentEp = commentEp;
+    }*/
+
+    public Episode(String date, String dateEnd, Dictionary<String, String> dictSymp, String sensibility, String triggers, String medication, String commentEp) {
+        super();
+        this.dateStart = date;
+        this.dateEnd = dateEnd;
+        this.dictSymp = dictSymp;
+        this.sensibility = sensibility;
         this.triggers = triggers;
         this.medication = medication;
         this.commentEp = commentEp;
@@ -119,20 +136,12 @@ public class Episode implements Serializable {
         this.sideHeadache = sideHeadache;
     }
 
-    public String getOtherSymp() {
-        return otherSymp;
+    public String getSensibility() {
+        return sensibility;
     }
 
-    public void setOtherSymp(String otherSymp) {
-        this.otherSymp = otherSymp;
-    }
-
-    public String getHypersensibility() {
-        return hypersensibility;
-    }
-
-    public void setHypersensibility(String hypersensibility) {
-        this.hypersensibility = hypersensibility;
+    public void setSensibility(String sensibility) {
+        this.sensibility = sensibility;
     }
 
     public String getTriggers() {

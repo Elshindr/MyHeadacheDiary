@@ -5,7 +5,7 @@
       <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1_launcher_app_1a926ef470c1d841a8833174a83b9da412" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
-        <definition>static void com.example.myheadachediary.LauncherApp.main</definition>
+        <definition>static void com.example.myheadachediary.tools.LauncherApp.main</definition>
         <argsstring>(String[] args)</argsstring>
         <name>main</name>
         <param>

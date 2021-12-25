@@ -23,6 +23,9 @@
     -fx-text-fill: lightgray;
     -fx-font-weight: bold;
 }
+.table-column {
+  -fx-alignment: CENTER;
+}
 
 #lblColorProperties{
   -fx-text-fill: -fx-accent;

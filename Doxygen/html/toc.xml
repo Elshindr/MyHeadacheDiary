@@ -145,11 +145,11 @@
     <topic label="Class Index" href="classes.html"/>
     <topic label="Class Hierarchy" href="hierarchy.html">
       <topic label="com.example.myheadachediary.model.Diary" href="classcom_1_1example_1_1myheadachediary_1_1model_1_1_diary.html"/>
-      <topic label="com.example.myheadachediary.controler.FXMLMyDiaryController" href="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller.html"/>
-      <topic label="com.example.myheadachediary.LauncherApp" href="classcom_1_1example_1_1myheadachediary_1_1_launcher_app.html"/>
-      <topic label="com.example.myheadachediary.model.SerializeToXML" href="classcom_1_1example_1_1myheadachediary_1_1model_1_1_serialize_to_x_m_l.html"/>
+      <topic label="com.example.myheadachediary.view.FXMLMyDiaryController" href="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller.html"/>
+      <topic label="com.example.myheadachediary.tools.LauncherApp" href="classcom_1_1example_1_1myheadachediary_1_1_launcher_app.html"/>
+      <topic label="com.example.myheadachediary.tools.SerializeToXML" href="classcom_1_1example_1_1myheadachediary_1_1model_1_1_serialize_to_x_m_l.html"/>
       <topic label="Application">
-        <topic label="com.example.myheadachediary.HeadacheDiaryApplication" href="classcom_1_1example_1_1myheadachediary_1_1_headache_diary_application.html"/>
+        <topic label="com.example.myheadachediary.view.MainMyDiaryApplication" href="classcom_1_1example_1_1myheadachediary_1_1_headache_diary_application.html"/>
       </topic>
       <topic label="Serializable">
         <topic label="com.example.myheadachediary.model.Episode" href="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html"/>
@@ -164,19 +164,19 @@
   <topic label="Files" href="files.html">
     <topic label="File List" href="files.html">
       <topic label="FXMLMyDiaryController.java" href="_f_x_m_l_my_diary_controller_8java.html">
-        <topic label="com.example.myheadachediary.controler.FXMLMyDiaryController" href="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller.html">
+        <topic label="com.example.myheadachediary.view.FXMLMyDiaryController" href="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller.html">
           <topic label="checkBokReboot" href="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller.html#a1c3945604348b94fcb4ede0ec3e01ca8"/>
           <topic label="onClickAddHeadache" href="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller.html#a32c7fecc264106e2737c555ad383ca2d"/>
           <topic label="onClickFillLastestSettings" href="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller.html#a693a9ec4df9ba3d05918a25eb0650116"/>
         </topic>
       </topic>
       <topic label="HeadacheDiaryApplication.java" href="_headache_diary_application_8java.html">
-        <topic label="com.example.myheadachediary.HeadacheDiaryApplication" href="classcom_1_1example_1_1myheadachediary_1_1_headache_diary_application.html">
+        <topic label="com.example.myheadachediary.view.MainMyDiaryApplication" href="classcom_1_1example_1_1myheadachediary_1_1_headache_diary_application.html">
           <topic label="start" href="classcom_1_1example_1_1myheadachediary_1_1_headache_diary_application.html#af75762cc827d84fdd8275fa3249e5f90"/>
         </topic>
       </topic>
       <topic label="LauncherApp.java" href="_launcher_app_8java.html">
-        <topic label="com.example.myheadachediary.LauncherApp" href="classcom_1_1example_1_1myheadachediary_1_1_launcher_app.html">
+        <topic label="com.example.myheadachediary.tools.LauncherApp" href="classcom_1_1example_1_1myheadachediary_1_1_launcher_app.html">
         </topic>
       </topic>
       <topic label="Diary.java" href="_diary_8java.html">
@@ -232,7 +232,7 @@
         </topic>
       </topic>
       <topic label="SerializeToXML.java" href="_serialize_to_x_m_l_8java.html">
-        <topic label="com.example.myheadachediary.model.SerializeToXML" href="classcom_1_1example_1_1myheadachediary_1_1model_1_1_serialize_to_x_m_l.html">
+        <topic label="com.example.myheadachediary.tools.SerializeToXML" href="classcom_1_1example_1_1myheadachediary_1_1model_1_1_serialize_to_x_m_l.html">
         </topic>
       </topic>
       <topic label="module-info.java" href="module-info_8java.html">

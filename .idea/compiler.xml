@@ -9,8 +9,8 @@
         <module name="MyHeadacheDiary" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="MyHeadacheDiary" target="16" />
+    <bytecodeTargetLevel target="17">
+      <module name="MyHeadacheDiary" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

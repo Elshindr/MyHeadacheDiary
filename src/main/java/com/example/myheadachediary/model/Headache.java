@@ -1,10 +1,6 @@
 package com.example.myheadachediary.model;
 
 import javax.xml.bind.annotation.XmlElement;
-import java.io.Externalizable;
-import java.io.IOException;
-import java.io.ObjectInput;
-import java.io.ObjectOutput;
 import java.util.ArrayList;
 import java.util.List;
 /**
@@ -13,7 +9,7 @@ import java.util.List;
  */
 //@XmlRootElement(name = "Headache")
 
-public class Headache  implements Externalizable {
+public class Headache  {
 
     private static final long serialVersionUID = 1L;
 
@@ -52,7 +48,6 @@ public class Headache  implements Externalizable {
         this.comments = comments;
         // by default ,then + 1 by another episode
     }
-
 
     public int getIdHeadache() {
         return idHeadache;
@@ -104,6 +99,7 @@ public class Headache  implements Externalizable {
     }
 
     public void setComments(String comments) {
+
         this.comments = comments;
     }
 
@@ -118,14 +114,6 @@ public class Headache  implements Externalizable {
         anEpisode.setIdEpisode(lstEpisodes.size());
     }
 
-    @Override
-    public void writeExternal(ObjectOutput out) throws IOException {
 
-    }
-
-    @Override
-    public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException {
-
-    }
 }
 

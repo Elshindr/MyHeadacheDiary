@@ -6,7 +6,7 @@
       <sectiondef kind="public-func">
       <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1_headache_diary_application_1af75762cc827d84fdd8275fa3249e5f90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
-        <definition>void com.example.myheadachediary.HeadacheDiaryApplication.start</definition>
+        <definition>void com.example.myheadachediary.view.MainMyDiaryApplication.start</definition>
         <argsstring>(Stage stage)</argsstring>
         <name>start</name>
         <param>
@@ -26,7 +26,7 @@
       <sectiondef kind="public-static-func">
       <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1_headache_diary_application_1abe661964777149cd18e235042950d6b3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
-        <definition>static void com.example.myheadachediary.HeadacheDiaryApplication.main</definition>
+        <definition>static void com.example.myheadachediary.view.MainMyDiaryApplication.main</definition>
         <argsstring>(String[] args)</argsstring>
         <name>main</name>
         <param>
@@ -48,7 +48,7 @@
     </detaileddescription>
     <inheritancegraph>
       <node id="1">
-        <label>com.example.myheadachediary.HeadacheDiaryApplication</label>
+        <label>com.example.myheadachediary.view.MainMyDiaryApplication</label>
         <link refid="classcom_1_1example_1_1myheadachediary_1_1_headache_diary_application"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
@@ -59,7 +59,7 @@
     </inheritancegraph>
     <collaborationgraph>
       <node id="1">
-        <label>com.example.myheadachediary.HeadacheDiaryApplication</label>
+        <label>com.example.myheadachediary.view.MainMyDiaryApplication</label>
         <link refid="classcom_1_1example_1_1myheadachediary_1_1_headache_diary_application"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
