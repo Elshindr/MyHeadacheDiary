@@ -16,7 +16,7 @@ The app have currently 3 tab:
 
 - The second tab is the diary. It a listview where you can see all your record. You can modify the entries and eventualy delete a record.
 <p align="center">
-  <img src="https://github.com/Elshindr/MyHeadacheDiary/blob/main/docs/Maquette/TabDiary_exemple_min.png" alt="Sublime's custom image"/>
+  <img src="https://github.com/Elshindr/MyHeadacheDiary/blob/main/docs/Maquette/TabDiary_exemple_min.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
 - The third tab is the statistics and graph part.
