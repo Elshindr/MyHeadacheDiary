@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/Elshindr/MyHeadacheDiary/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/elshindr/MyHeadacheDiary?style=for-the-badge">
+<p align = "justify">
+An app allowing to records symptoms and other kind of data when a migraine occurs. Datas are saved in XML files and can be consulted in the app. Finaly, the main of this app is to track its migraines in order to better understand them thanks to somes stats and graphs.
+</p>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### How it works?
+The app have currently 3 tab:
+- The first tab is a form with severals controls to complete which are the symptoms of your migraine. Presently, datas reccorded are axed on 5 themes (dates, symptoms, hypersensibility, potentials triggers and medications). You can use the most recent record to auto-complete the form.
+<p align="center">
+  <img src="https://github.com/Elshindr/MyHeadacheDiary/blob/main/Maquette/TabAddMigraine_exemple_min.png?raw=true" alt="Sublime's custom image"/>
+</p>
 
-```markdown
-Syntax highlighted code block
+- The second tab is the diary. It a listview where you can see all your record. You can modify the entries and eventualy delete a record.
+<p align="center">
+  <img src="https://github.com/Elshindr/MyHeadacheDiary/blob/main/Maquette/TabDiary_exemple_min.png?raw=true" alt="Sublime's custom image"/>
+</p>
 
-# Header 1
-## Header 2
-### Header 3
+- The third tab is the statistics and graph part.
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Elshindr/MyHeadacheDiary/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Task List
+- Better regex for auto-complete
+- Delete buttons
+- Stats and Graph part
+- Prettier Interface
