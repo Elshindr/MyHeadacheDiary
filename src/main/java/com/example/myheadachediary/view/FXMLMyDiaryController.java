@@ -187,11 +187,6 @@ public class FXMLMyDiaryController {
 
 
     // Local variables for create Episode object
-    private String severity;
-    private String dizziness;
-    private String aura;
-    private String nausea;
-    private String sideHeadache;
     private String sensibility;
     private String triggers;
     private String medication;
@@ -706,7 +701,7 @@ public class FXMLMyDiaryController {
             e.printStackTrace();
         }
 
-        if (!(diary == null)) {
+        if (diary != null) {
             lstHeadaches = (List<Headache>) diary;
             obsLstHd.addAll(lstHeadaches);
 
