@@ -8,7 +8,6 @@ module com.example.myheadachediary {
     requires javafx.graphics;
     requires java.desktop;
 
-    requires jaxb.api;
 
     exports com.example.myheadachediary.model;
     opens com.example.myheadachediary.model to javafx.fxml;

@@ -1,6 +1,5 @@
 package com.example.myheadachediary.controler;
 
-import com.example.myheadachediary.model.Episode;
 import com.example.myheadachediary.model.Headache;
 
 public class Controle {
@@ -25,7 +24,7 @@ public class Controle {
     public void createHeadache(int id, String startDay, String endDay, String comments){
         headache = new Headache(id, startDay, endDay, comments);
         //Episode anEpisode = new Episode(startDay, endDay, severity, dizziness, aura, nausea, sideHeadache, sensibility, triggers, medication, txtAComments.getText());
-        headache.addEpisodeInList(anEpisode);
+      // headache.addEpisodeInList(anEpisode);
 
     }
 }

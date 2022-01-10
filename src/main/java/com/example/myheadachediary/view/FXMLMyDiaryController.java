@@ -195,7 +195,7 @@ public class FXMLMyDiaryController {
     private String sensibility;
     private String triggers;
     private String medication;
-    private String comments;
+
 
     // Controller instance
     private Controle controle;
@@ -271,7 +271,7 @@ public class FXMLMyDiaryController {
         togglebtnAddEpisode.setTooltip(new Tooltip("Add a new episode from last headache entry"));
 
         btnLastestSetting.setTooltip(new Tooltip("Auto fill With Lastest Settings!"));
-        if(lstHeadaches.size() == 0){
+        if(lstHeadaches.isEmpty()){
             togglebtnAddEpisode.setDisable(true);
         }
 
@@ -377,14 +377,14 @@ public class FXMLMyDiaryController {
             // on recupére la derniere migraine. On créée un nouvel episode et modifie la date de fin de la migraine
             aHeadache = lstHeadaches.get(lstHeadaches.size() - 1);
             aHeadache.setEndHeadache(endDay);
-            Episode newEpisode = new Episode(startDay, endDay, cobSeverity.getValue(), cobDizziness.getValue(), cobAura.getValue(), cobNausea.getValue(), cobSideHeadache.getValue(), checkSensibility(), checkTrigger(), checkMedication(), txtAComments.getText());
+            //Episode newEpisode = new Episode(startDay, endDay, cobSeverity.getValue(), cobDizziness.getValue(), cobAura.getValue(), cobNausea.getValue(), cobSideHeadache.getValue(), checkSensibility(), checkTrigger(), checkMedication(), txtAComments.getText());
 
             // ajoute le nouveau commentaire, à la suite du dernier commentaire
             aHeadache.setComments(aHeadache.getComments() + "; " + txtAComments.getText());
             // on ajoute cet episode à la liste de la derniere migraine
-            aHeadache.addEpisodeInList(newEpisode);
+            //aHeadache.addEpisodeInList(newEpisode);
             aHeadache.setNbEpisodes();
-            obsLstEp.add(newEpisode);
+            //obsLstEp.add(newEpisode);
             obsLstHd.set(lstHeadaches.size() - 1, aHeadache);
 
             tabHeadache.getSelectionModel().select(aHeadache);
@@ -394,23 +394,23 @@ public class FXMLMyDiaryController {
            // Créé une migraine puis un Episode. On ajoute cet episode à sa liste d'episode
             controle.createHeadache(lstHeadaches.size() + 1, startDay, endDay, txtAComments.getText());
            // aHeadache = new Headache(lstHeadaches.size() + 1, startDay, endDay, txtAComments.getText());
-            Episode anEpisode = new Episode(startDay, endDay, cobSeverity.getValue(), cobDizziness.getValue(), cobAura.getValue(), cobNausea.getValue(), cobSideHeadache.getValue(), checkSensibility(), checkTrigger(), checkMedication(), txtAComments.getText());
+            //Episode anEpisode = new Episode(startDay, endDay, cobSeverity.getValue(), cobDizziness.getValue(), cobAura.getValue(), cobNausea.getValue(), cobSideHeadache.getValue(), checkSensibility(), checkTrigger(), checkMedication(), txtAComments.getText());
             //aHeadache.addEpisodeInList(anEpisode);
 
             // on ajoute cette migraine à la liste des migraines pour le relier à son observateur
-            lstHeadaches.add(aHeadache);
+            //lstHeadaches.add(aHeadache);
 
             obsLstHd.clear();
             obsLstHd.addAll(lstHeadaches);
-            obsLstEp.addAll(aHeadache.getLstEpisodes());
+            //obsLstEp.addAll(aHeadache.getLstEpisodes());
 
-            if(lstHeadaches.size() > 0){
+            if(lstHeadaches.isEmpty()){
                 togglebtnAddEpisode.setDisable(false);
             }
 
             //colIdHeadache.setComparator(colIdHeadache.getComparator().reversed());
             //tabHeadache.getSortOrder().add(colIdHeadache);
-            tabHeadache.getSelectionModel().select(aHeadache);
+            //tabHeadache.getSelectionModel().select(aHeadache);
         }
 
         // Display row data in TabView
@@ -744,7 +744,7 @@ public class FXMLMyDiaryController {
      */
     @FXML
     protected void onClickFillLastestSettings() {
-
+        String comments="";
         // Get the last episode
         Episode anEpisode = obsLstEp.get(obsLstEp.size() - 1);
 

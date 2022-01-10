@@ -1,28 +1,23 @@
 package com.example.myheadachediary.model;
 
-import javax.xml.bind.annotation.XmlElement;
 import java.util.ArrayList;
 import java.util.List;
+
 /**
  * This Class represent Headache. A headache have an id, a starting date and ending, and is compose of a List of one or somes episodes.
  * @see Episode
  */
-//@XmlRootElement(name = "Headache")
-
-public class Headache  {
+    public class Headache  {
 
     private static final long serialVersionUID = 1L;
 
-    //@XmlAttribute(name = "id")
+
     private int idHeadache;
 
-    //@XmlElement(name = "startHeadache")
     private String startHeadache;
 
-    //@XmlElement(name = "endHeadache")
     private String endHeadache;
 
-    //@XmlElement(name = "nb_Episodes")
     private int nbEpisodes;
 
     private String comments;
@@ -77,7 +72,7 @@ public class Headache  {
         return lstEpisodes;
     }
 
-    @XmlElement(name = "liste_Episodes")
+
     public void setLstEpisodes(List<Episode> lstEpisodes) {
         this.lstEpisodes = lstEpisodes;
     }
