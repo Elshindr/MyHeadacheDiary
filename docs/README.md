@@ -1,4 +1,4 @@
-## :pill: My Headache Diary :pill:
+## 💊 My Headache Diary 💊
 ### How it works?
 The app have currently 3 tab:
 - The first tab is a form with severals controls to complete which are the symptoms of your migraine. Presently, datas reccorded are axed on 5 themes (dates, symptoms, hypersensibility, potentials triggers and medications). You can use the most recent record to auto-complete the form.
