@@ -1,3 +1,4 @@
+## :pill: My Headache Diary :pill:
 ### How it works?
 The app have currently 3 tab:
 - The first tab is a form with severals controls to complete which are the symptoms of your migraine. Presently, datas reccorded are axed on 5 themes (dates, symptoms, hypersensibility, potentials triggers and medications). You can use the most recent record to auto-complete the form.
@@ -18,14 +19,3 @@ The app have currently 3 tab:
 - Delete buttons
 - Stats and Graph part
 - Prettier Interface
-
-
-## Libraries
-* [Materialize.css](http://materializecss.com/)
-* [GeoPattern](https://github.com/btmills/geopattern/)
-* [Animate.css](https://daneden.github.io/animate.css/)
-* [Morphtext](http://morphext.fyianlai.com/)
-
-## References
-* https://github.com/DONGChuan/Yummy-Jekyll/
-* https://github.com/codinfox/codinfox-lanyon/
