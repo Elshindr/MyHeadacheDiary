@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_diary" kind="class" language="Java" prot="public">
+    <compoundname>com::example::myheadachediary::model::Diary</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_diary_1ab6ee80cea3d161a76715c8e85ee1704d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void com.example.myheadachediary.model.Diary.main</definition>
+        <argsstring>(String strDiary)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String</type>
+          <declname>strDiary</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Diary.java" line="28" column="24" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Diary.java" bodystart="28" bodyend="74"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Diary.java" line="27" column="7" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Diary.java" bodystart="27" bodyend="78"/>
+    <listofallmembers>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_diary_1ab6ee80cea3d161a76715c8e85ee1704d" prot="public" virt="non-virtual"><scope>com::example::myheadachediary::model::Diary</scope><name>main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

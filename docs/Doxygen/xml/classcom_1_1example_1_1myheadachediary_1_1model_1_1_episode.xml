@@ -1,0 +1,738 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode" kind="class" language="Java" prot="public">
+    <compoundname>com::example::myheadachediary::model::Episode</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Serializable</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a50387562a9f0e6d8123d705f9210dc91" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.example.myheadachediary.model.Episode.idEpisode</definition>
+        <argsstring></argsstring>
+        <name>idEpisode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="103" column="17" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1afaad73d9eb85e3a9bc802d5ad6877e7b" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.example.myheadachediary.model.Episode.dateStart</definition>
+        <argsstring></argsstring>
+        <name>dateStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="104" column="20" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1add6b3452e0a61459b56ae5c706742275" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.example.myheadachediary.model.Episode.dateEnd</definition>
+        <argsstring></argsstring>
+        <name>dateEnd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="105" column="20" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a84411cc89838539d5f84db4fb705cf9b" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.example.myheadachediary.model.Episode.severity</definition>
+        <argsstring></argsstring>
+        <name>severity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="106" column="20" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a8b30397c6abd9831b04023729d1367e6" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.example.myheadachediary.model.Episode.dizziness</definition>
+        <argsstring></argsstring>
+        <name>dizziness</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="107" column="20" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a90d06315b6c1208d907a024b0f6d9a2d" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.example.myheadachediary.model.Episode.aura</definition>
+        <argsstring></argsstring>
+        <name>aura</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="108" column="20" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1ae50c14d76994dc1516a0786cc33cfe78" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.example.myheadachediary.model.Episode.nausea</definition>
+        <argsstring></argsstring>
+        <name>nausea</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="109" column="20" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a27f57f9ce8a4c59047d80ddcedbad1a7" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.example.myheadachediary.model.Episode.sideHeadache</definition>
+        <argsstring></argsstring>
+        <name>sideHeadache</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="110" column="20" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a1a3bb2bb890c95e39d3c56a0ea73ee46" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.example.myheadachediary.model.Episode.otherSymp</definition>
+        <argsstring></argsstring>
+        <name>otherSymp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="111" column="20" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a8dcaff315919bfef908a007bd8b26d04" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.example.myheadachediary.model.Episode.hypersensibility</definition>
+        <argsstring></argsstring>
+        <name>hypersensibility</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="113" column="20" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a6fea88758e69e38e307b7f071f67318e" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.example.myheadachediary.model.Episode.triggers</definition>
+        <argsstring></argsstring>
+        <name>triggers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="114" column="20" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a6db1269bf4b2cff9608a8c7cbeac75df" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.example.myheadachediary.model.Episode.medIbupf</definition>
+        <argsstring></argsstring>
+        <name>medIbupf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="116" column="17" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a5188c757eeaa1af0f6a1502c8a38bdb3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.example.myheadachediary.model.Episode.medPara</definition>
+        <argsstring></argsstring>
+        <name>medPara</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="117" column="17" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a91b14b2251942c33cf82bf909798e640" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.example.myheadachediary.model.Episode.medZolmi</definition>
+        <argsstring></argsstring>
+        <name>medZolmi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="118" column="17" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a5a4fa57246a96bd30ffd93c3194ea5cb" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.example.myheadachediary.model.Episode.medOther</definition>
+        <argsstring></argsstring>
+        <name>medOther</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="119" column="17" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a445fd2544babb83b0c55181898221455" prot="private" static="no" mutable="no">
+        <type>String</type>
+        <definition>String com.example.myheadachediary.model.Episode.medication</definition>
+        <argsstring></argsstring>
+        <name>medication</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="121" column="20" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a93cc383e6bdb206e003902ccd89d3290" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.example.myheadachediary.model.Episode.getDateStart</definition>
+        <argsstring>()</argsstring>
+        <name>getDateStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="6" column="19" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="6" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a18cf1e00ca7f073c9e802f7c2be6e55d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.example.myheadachediary.model.Episode.setDateStart</definition>
+        <argsstring>(String dateStart)</argsstring>
+        <name>setDateStart</name>
+        <param>
+          <type>String</type>
+          <declname>dateStart</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="10" column="17" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="10" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a1c528a93301534e633f8aab25a44095c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.example.myheadachediary.model.Episode.getDateEnd</definition>
+        <argsstring>()</argsstring>
+        <name>getDateEnd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="14" column="19" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="14" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1ad34c220dc2c7673b3374921b18cd85e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.example.myheadachediary.model.Episode.setDateEnd</definition>
+        <argsstring>(String dateEnd)</argsstring>
+        <name>setDateEnd</name>
+        <param>
+          <type>String</type>
+          <declname>dateEnd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="18" column="17" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="18" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a1f0f3f8ff514113e1ba6222e14678603" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.example.myheadachediary.model.Episode.getSeverity</definition>
+        <argsstring>()</argsstring>
+        <name>getSeverity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="23" column="19" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="23" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a3dfc122e4f90bbdc061cda2f95664f2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.example.myheadachediary.model.Episode.setSeverity</definition>
+        <argsstring>(String severity)</argsstring>
+        <name>setSeverity</name>
+        <param>
+          <type>String</type>
+          <declname>severity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="27" column="17" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="27" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1accc9ebc5d435853289d2f582c0173d7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.example.myheadachediary.model.Episode.getDizziness</definition>
+        <argsstring>()</argsstring>
+        <name>getDizziness</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="31" column="19" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="31" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1ab279a85405eff579e8a80848e12c168e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.example.myheadachediary.model.Episode.setDizziness</definition>
+        <argsstring>(String dizziness)</argsstring>
+        <name>setDizziness</name>
+        <param>
+          <type>String</type>
+          <declname>dizziness</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="35" column="17" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="35" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a49d0ef6ac97121f97df6ecae36ced893" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.example.myheadachediary.model.Episode.getAura</definition>
+        <argsstring>()</argsstring>
+        <name>getAura</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="39" column="19" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="39" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a7f16a98f6dbf3687085bd05fe755835f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.example.myheadachediary.model.Episode.setAura</definition>
+        <argsstring>(String aura)</argsstring>
+        <name>setAura</name>
+        <param>
+          <type>String</type>
+          <declname>aura</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="43" column="17" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="43" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1afd3e14b28665f4bf31bf35561a1bbf74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.example.myheadachediary.model.Episode.getNausea</definition>
+        <argsstring>()</argsstring>
+        <name>getNausea</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="47" column="19" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="47" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a88c313d149bf4179eb0a51f291168975" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.example.myheadachediary.model.Episode.setNausea</definition>
+        <argsstring>(String nausea)</argsstring>
+        <name>setNausea</name>
+        <param>
+          <type>String</type>
+          <declname>nausea</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="51" column="17" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="51" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1aaca177e5657f7b02dc31eaa7f682be0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.example.myheadachediary.model.Episode.getSideHeadache</definition>
+        <argsstring>()</argsstring>
+        <name>getSideHeadache</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="55" column="19" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="55" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1afcfd458ebff651a451270c202c69aa35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.example.myheadachediary.model.Episode.setSideHeadache</definition>
+        <argsstring>(String sideHeadache)</argsstring>
+        <name>setSideHeadache</name>
+        <param>
+          <type>String</type>
+          <declname>sideHeadache</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="59" column="17" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="59" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a7e1e7a3dc17b78383ff07fab642e8c5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.example.myheadachediary.model.Episode.getOtherSymp</definition>
+        <argsstring>()</argsstring>
+        <name>getOtherSymp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="63" column="19" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="63" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a6ca5713837d1294361673f85dc26d4b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.example.myheadachediary.model.Episode.setOtherSymp</definition>
+        <argsstring>(String otherSymp)</argsstring>
+        <name>setOtherSymp</name>
+        <param>
+          <type>String</type>
+          <declname>otherSymp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="67" column="17" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="67" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a64bd8bd51436f437ebe22cd6ae9bbbcf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.example.myheadachediary.model.Episode.getHypersensibility</definition>
+        <argsstring>()</argsstring>
+        <name>getHypersensibility</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="71" column="19" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="71" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1aa2269de62481ab369bbf2f566a675c78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.example.myheadachediary.model.Episode.setHypersensibility</definition>
+        <argsstring>(String hypersensibility)</argsstring>
+        <name>setHypersensibility</name>
+        <param>
+          <type>String</type>
+          <declname>hypersensibility</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="75" column="17" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="75" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1adde0371e552bfd3d8264520e8dd1c8f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.example.myheadachediary.model.Episode.getTriggers</definition>
+        <argsstring>()</argsstring>
+        <name>getTriggers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="79" column="19" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="79" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a6e2e628e556805d4b7043d4bdfc8722c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.example.myheadachediary.model.Episode.setTriggers</definition>
+        <argsstring>(String triggers)</argsstring>
+        <name>setTriggers</name>
+        <param>
+          <type>String</type>
+          <declname>triggers</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="83" column="17" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="83" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1ab1f3693ff1e962f8a81188b2f8562105" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.example.myheadachediary.model.Episode.getMedication</definition>
+        <argsstring>()</argsstring>
+        <name>getMedication</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="87" column="19" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="87" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1aec668e810476d60feab1f353b2546f1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.example.myheadachediary.model.Episode.setMedication</definition>
+        <argsstring>(String medication)</argsstring>
+        <name>setMedication</name>
+        <param>
+          <type>String</type>
+          <declname>medication</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="91" column="17" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="91" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1ae7214640c23a9823575c8bbc7491b2bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.example.myheadachediary.model.Episode.getIdEpisode</definition>
+        <argsstring>()</argsstring>
+        <name>getIdEpisode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="95" column="16" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="95" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a3aafd7adc21ca3337dd6f8af369de76d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.example.myheadachediary.model.Episode.setIdEpisode</definition>
+        <argsstring>(int idEpisode)</argsstring>
+        <name>setIdEpisode</name>
+        <param>
+          <type>int</type>
+          <declname>idEpisode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="99" column="17" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="99" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a005c7820bdd87094c211fc8e18616260" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.example.myheadachediary.model.Episode.Episode</definition>
+        <argsstring>()</argsstring>
+        <name>Episode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="123" column="12" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="123" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a104e31d36e61085a95c8c3f9010c2108" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.example.myheadachediary.model.Episode.Episode</definition>
+        <argsstring>(int idEpisode, String date, String dateEnd, String severity, String dizziness, String aura, String nausea, String sideHeadache, String otherSymp, String hypersensibility, String triggers, String medication)</argsstring>
+        <name>Episode</name>
+        <param>
+          <type>int</type>
+          <declname>idEpisode</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>date</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>dateEnd</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>severity</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>dizziness</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>aura</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>nausea</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>sideHeadache</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>otherSymp</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>hypersensibility</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>triggers</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>medication</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="126" column="12" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="126" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a94e4c74f6a726081445d438bd4dd92be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.example.myheadachediary.model.Episode.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="141" column="19" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="141" bodyend="152"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>com.example.myheadachediary.model.Episode</label>
+        <link refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Serializable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>com.example.myheadachediary.model.Episode</label>
+        <link refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Serializable</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" line="5" column="7" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/model/Episode.java" bodystart="5" bodyend="153"/>
+    <listofallmembers>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a90d06315b6c1208d907a024b0f6d9a2d" prot="private" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>aura</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1add6b3452e0a61459b56ae5c706742275" prot="private" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>dateEnd</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1afaad73d9eb85e3a9bc802d5ad6877e7b" prot="private" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>dateStart</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a8b30397c6abd9831b04023729d1367e6" prot="private" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>dizziness</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a005c7820bdd87094c211fc8e18616260" prot="public" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>Episode</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a104e31d36e61085a95c8c3f9010c2108" prot="public" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>Episode</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a49d0ef6ac97121f97df6ecae36ced893" prot="public" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>getAura</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a1c528a93301534e633f8aab25a44095c" prot="public" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>getDateEnd</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a93cc383e6bdb206e003902ccd89d3290" prot="public" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>getDateStart</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1accc9ebc5d435853289d2f582c0173d7d" prot="public" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>getDizziness</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a64bd8bd51436f437ebe22cd6ae9bbbcf" prot="public" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>getHypersensibility</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1ae7214640c23a9823575c8bbc7491b2bd" prot="public" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>getIdEpisode</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1ab1f3693ff1e962f8a81188b2f8562105" prot="public" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>getMedication</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1afd3e14b28665f4bf31bf35561a1bbf74" prot="public" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>getNausea</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a7e1e7a3dc17b78383ff07fab642e8c5c" prot="public" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>getOtherSymp</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a1f0f3f8ff514113e1ba6222e14678603" prot="public" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>getSeverity</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1aaca177e5657f7b02dc31eaa7f682be0e" prot="public" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>getSideHeadache</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1adde0371e552bfd3d8264520e8dd1c8f7" prot="public" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>getTriggers</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a8dcaff315919bfef908a007bd8b26d04" prot="private" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>hypersensibility</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a50387562a9f0e6d8123d705f9210dc91" prot="private" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>idEpisode</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a6db1269bf4b2cff9608a8c7cbeac75df" prot="private" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>medIbupf</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a445fd2544babb83b0c55181898221455" prot="private" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>medication</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a5a4fa57246a96bd30ffd93c3194ea5cb" prot="private" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>medOther</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a5188c757eeaa1af0f6a1502c8a38bdb3" prot="private" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>medPara</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a91b14b2251942c33cf82bf909798e640" prot="private" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>medZolmi</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1ae50c14d76994dc1516a0786cc33cfe78" prot="private" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>nausea</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a1a3bb2bb890c95e39d3c56a0ea73ee46" prot="private" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>otherSymp</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a7f16a98f6dbf3687085bd05fe755835f" prot="public" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>setAura</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1ad34c220dc2c7673b3374921b18cd85e5" prot="public" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>setDateEnd</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a18cf1e00ca7f073c9e802f7c2be6e55d" prot="public" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>setDateStart</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1ab279a85405eff579e8a80848e12c168e" prot="public" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>setDizziness</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1aa2269de62481ab369bbf2f566a675c78" prot="public" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>setHypersensibility</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a3aafd7adc21ca3337dd6f8af369de76d" prot="public" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>setIdEpisode</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1aec668e810476d60feab1f353b2546f1c" prot="public" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>setMedication</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a88c313d149bf4179eb0a51f291168975" prot="public" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>setNausea</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a6ca5713837d1294361673f85dc26d4b8" prot="public" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>setOtherSymp</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a3dfc122e4f90bbdc061cda2f95664f2d" prot="public" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>setSeverity</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1afcfd458ebff651a451270c202c69aa35" prot="public" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>setSideHeadache</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a6e2e628e556805d4b7043d4bdfc8722c" prot="public" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>setTriggers</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a84411cc89838539d5f84db4fb705cf9b" prot="private" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>severity</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a27f57f9ce8a4c59047d80ddcedbad1a7" prot="private" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>sideHeadache</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a94e4c74f6a726081445d438bd4dd92be" prot="public" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>toString</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode_1a6fea88758e69e38e307b7f071f67318e" prot="private" virt="non-virtual"><scope>com::example::myheadachediary::model::Episode</scope><name>triggers</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

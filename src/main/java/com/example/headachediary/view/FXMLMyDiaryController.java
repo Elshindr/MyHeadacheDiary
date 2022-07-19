@@ -442,20 +442,18 @@ public class FXMLMyDiaryController {
 
         tabEpisodes.setEditable(true);
 
-        System.out.println("idEpisode");
+
         colIdEpisode.setCellFactory(TextFieldTableCell.forTableColumn(new IntegerStringConverter()));
         colIdEpisode.setOnEditCommit(event -> {
             Episode episode = event.getRowValue();
             episode.setIdEpisode(event.getNewValue());
         });
-        System.out.println("dates");
         colDates.setCellFactory(TextFieldTableCell.forTableColumn());
         colDates.setOnEditCommit(event -> {
             Episode episode = event.getRowValue();
             episode.setDateStart(event.getNewValue());
         });
 
-        System.out.println("med");
         //colMed.setCellFactory(TextFieldTableCell.forTableColumn(new Map<>()));
         colMed.setCellFactory(ChoiceBoxTableCell.forTableColumn());
         //    new HashMap<>()));
@@ -473,7 +471,6 @@ public class FXMLMyDiaryController {
 
         // Sauvegarde les migraines dans la liste des migraines
         Controle.saveInDiary();
-        System.out.println("finsauvegarde");
     }
 
     /**
@@ -701,6 +698,7 @@ public class FXMLMyDiaryController {
     public void loadDiary(){
         try {
             lstHeadaches = controle.loadDiary();
+
             if(lstHeadaches == null){
                 lstHeadaches = new ArrayList<>();
             }

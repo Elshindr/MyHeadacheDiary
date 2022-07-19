@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="module-info_8java" kind="file" language="Java">
+    <compoundname>module-info.java</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="module-info_8java_1adc8af0f586c109fdd2669456ecc84ad5" prot="package" static="no" mutable="no">
+        <type>module com.example.</type>
+        <definition>exports com example myheadachediary</definition>
+        <argsstring></argsstring>
+        <name>myheadachediary</name>
+        <initializer>{
+    requires javafx.controls</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/module-info.java" line="1" column="18" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/module-info.java" bodystart="1" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="module-info_8java_1a1cc93bc1524375572d2e211fcfe26035" prot="package" static="no" mutable="no">
+        <type>.</type>
+        <definition>opens com example myheadachediary controler to javafx fxml</definition>
+        <argsstring></argsstring>
+        <name>fxml</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/module-info.java" line="3" column="6" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/module-info.java" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="module-info_8java_1ac44bd9c9c942a4c2bc27b0d853a78552" prot="package" static="no" mutable="no">
+        <type>.controlsfx.</type>
+        <definition>.controlsfx. controls</definition>
+        <argsstring></argsstring>
+        <name>controls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/module-info.java" line="5" column="16" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/module-info.java" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="module-info_8java_1a376effd91cf22cb834d2bcac8a242210" prot="package" static="no" mutable="no">
+        <type>.dlsc.</type>
+        <definition>.dlsc. formsfx</definition>
+        <argsstring></argsstring>
+        <name>formsfx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/module-info.java" line="6" column="10" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/module-info.java" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="module-info_8java_1a169dc8355662fd02c7a9dc2610d689ea" prot="package" static="no" mutable="no">
+        <type>.kordamp.bootstrapfx.</type>
+        <definition>.kordamp.bootstrapfx. core</definition>
+        <argsstring></argsstring>
+        <name>core</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/module-info.java" line="7" column="24" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/module-info.java" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="module-info_8java_1a8773493b624549ee403a1e563d47c66e" prot="package" static="no" mutable="no">
+        <type>.</type>
+        <definition>. graphics</definition>
+        <argsstring></argsstring>
+        <name>graphics</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/module-info.java" line="8" column="6" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/module-info.java" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="module-info_8java_1af5c1f5bec817a17d0d32c5a1cdc2d894" prot="package" static="no" mutable="no">
+        <type>.</type>
+        <definition>. desktop</definition>
+        <argsstring></argsstring>
+        <name>desktop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/module-info.java" line="9" column="6" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/module-info.java" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="module-info_8java_1afbb0e57a6311246c4137266d895ac62a" prot="package" static="no" mutable="no">
+        <type>exports com.example.myheadachediary.</type>
+        <definition>exports com.example.myheadachediary. model</definition>
+        <argsstring></argsstring>
+        <name>model</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/module-info.java" line="13" column="38" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/module-info.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="module-info_8java_1a4260c1fddacc1c8d0443087651bde358" prot="package" static="no" mutable="no">
+        <type>exports com.example.myheadachediary.</type>
+        <definition>exports com.example.myheadachediary. controler</definition>
+        <argsstring></argsstring>
+        <name>controler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/module-info.java" line="15" column="38" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/module-info.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">module<sp/>com.example.myheadachediary<sp/>{</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">requires</highlight><highlight class="normal"><sp/>javafx.controls;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">requires</highlight><highlight class="normal"><sp/>javafx.fxml;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">requires</highlight><highlight class="normal"><sp/>org.controlsfx.controls;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">requires</highlight><highlight class="normal"><sp/>com.dlsc.formsfx;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">requires</highlight><highlight class="normal"><sp/>org.kordamp.bootstrapfx.core;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">requires</highlight><highlight class="normal"><sp/>javafx.graphics;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">requires</highlight><highlight class="normal"><sp/>java.desktop;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>opens<sp/>com.example.myheadachediary<sp/>to<sp/>javafx.fxml;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>exports<sp/>com.example.myheadachediary;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>exports<sp/>com.example.myheadachediary.model;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>opens<sp/>com.example.myheadachediary.model<sp/>to<sp/>javafx.fxml;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>exports<sp/>com.example.myheadachediary.controler;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>opens<sp/>com.example.myheadachediary.controler<sp/>to<sp/>javafx.fxml;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/module-info.java"/>
+  </compounddef>
+</doxygen>

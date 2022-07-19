@@ -1,0 +1,298 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Packages"><param name="Local" value="namespaces.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Packages"><param name="Local" value="namespaces.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="example"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="myheadachediary"><param name="Local" value="namespacecom_1_1example_1_1myheadachediary.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="controler"><param name="Local" value="namespacecom_1_1example_1_1myheadachediary_1_1controler.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="FXMLMyDiaryController"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="checkBokReboot"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller.html#a1c3945604348b94fcb4ede0ec3e01ca8"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="onClickAddHeadache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller.html#a32c7fecc264106e2737c555ad383ca2d"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="onClickFillLastestSettings"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller.html#a693a9ec4df9ba3d05918a25eb0650116"><param name="ImageNumber" value="11"></OBJECT>
+              </UL>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="model"><param name="Local" value="namespacecom_1_1example_1_1myheadachediary_1_1model.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="Diary"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_diary.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              </UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="Episode"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="Episode"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a005c7820bdd87094c211fc8e18616260"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="Episode"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a104e31d36e61085a95c8c3f9010c2108"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getAura"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a49d0ef6ac97121f97df6ecae36ced893"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getDateEnd"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a1c528a93301534e633f8aab25a44095c"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getDateStart"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a93cc383e6bdb206e003902ccd89d3290"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getDizziness"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#accc9ebc5d435853289d2f582c0173d7d"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getHypersensibility"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a64bd8bd51436f437ebe22cd6ae9bbbcf"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getIdEpisode"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#ae7214640c23a9823575c8bbc7491b2bd"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getMedication"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#ab1f3693ff1e962f8a81188b2f8562105"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getNausea"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#afd3e14b28665f4bf31bf35561a1bbf74"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getOtherSymp"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a7e1e7a3dc17b78383ff07fab642e8c5c"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getSeverity"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a1f0f3f8ff514113e1ba6222e14678603"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getSideHeadache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#aaca177e5657f7b02dc31eaa7f682be0e"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getTriggers"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#adde0371e552bfd3d8264520e8dd1c8f7"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="setAura"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a7f16a98f6dbf3687085bd05fe755835f"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="setDateEnd"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#ad34c220dc2c7673b3374921b18cd85e5"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="setDateStart"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a18cf1e00ca7f073c9e802f7c2be6e55d"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="setDizziness"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#ab279a85405eff579e8a80848e12c168e"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="setHypersensibility"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#aa2269de62481ab369bbf2f566a675c78"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="setIdEpisode"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a3aafd7adc21ca3337dd6f8af369de76d"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="setMedication"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#aec668e810476d60feab1f353b2546f1c"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="setNausea"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a88c313d149bf4179eb0a51f291168975"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="setOtherSymp"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a6ca5713837d1294361673f85dc26d4b8"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="setSeverity"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a3dfc122e4f90bbdc061cda2f95664f2d"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="setSideHeadache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#afcfd458ebff651a451270c202c69aa35"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="setTriggers"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a6e2e628e556805d4b7043d4bdfc8722c"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="toString"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a94e4c74f6a726081445d438bd4dd92be"><param name="ImageNumber" value="11"></OBJECT>
+              </UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="Headache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="Headache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#ab0b51b285db4f7df9eecd63e4669bce4"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="Headache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a83629b66d5ca701af0cac1f6c9bcc19a"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="addEpisodeInList"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a80b7a5b08a6ff14669093659c0a774b6"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getEndHeadache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a0a046d5355891fce23e0b612714bdf86"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getIdHeadache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a878d50f026aadf3775fb0f911e2993aa"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getLstEpisodes"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a4f75601d8158b8a62da12f5e82443c15"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getNbEpisodes"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a1749c8284d55c7cb15031e1fa299c737"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getStartHeadache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#ae83e5bab5ad0a3d5d8401d4af92006c8"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="setEndHeadache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a4fa174e7fd71b83295b67f891d1f04ca"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="setIdHeadache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a5dad1f8499b7ce1614054883e3ed920e"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="setLstEpisodes"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a2218c4bfcc236b46367d28b3d330926c"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="setNbEpisodes"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a9ad33362ed759962e396765caee856b2"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="setStartHeadache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a9310096a4447185a242f3a851d1d32b8"><param name="ImageNumber" value="11"></OBJECT>
+              </UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="SerializeToXML"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_serialize_to_x_m_l.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              </UL>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="HeadacheDiaryApplication"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1_headache_diary_application.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="start"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1_headache_diary_application.html#af75762cc827d84fdd8275fa3249e5f90"><param name="ImageNumber" value="11"></OBJECT>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="com.example.myheadachediary.tools.LauncherApp"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1_launcher_app.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            </UL>
+          </UL>
+        </UL>
+      </UL>
+    </UL>
+  </UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Classes"><param name="Local" value="annotated.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Class List"><param name="Local" value="annotated.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="example"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="myheadachediary"><param name="Local" value="namespacecom_1_1example_1_1myheadachediary.html"><param name="ImageNumber" value="1"></OBJECT>
+          <UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="controler"><param name="Local" value="namespacecom_1_1example_1_1myheadachediary_1_1controler.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="FXMLMyDiaryController"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="checkBokReboot"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller.html#a1c3945604348b94fcb4ede0ec3e01ca8"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="onClickAddHeadache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller.html#a32c7fecc264106e2737c555ad383ca2d"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="onClickFillLastestSettings"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller.html#a693a9ec4df9ba3d05918a25eb0650116"><param name="ImageNumber" value="11"></OBJECT>
+              </UL>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="model"><param name="Local" value="namespacecom_1_1example_1_1myheadachediary_1_1model.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="Diary"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_diary.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              </UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="Episode"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="Episode"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a005c7820bdd87094c211fc8e18616260"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="Episode"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a104e31d36e61085a95c8c3f9010c2108"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getAura"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a49d0ef6ac97121f97df6ecae36ced893"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getDateEnd"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a1c528a93301534e633f8aab25a44095c"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getDateStart"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a93cc383e6bdb206e003902ccd89d3290"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getDizziness"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#accc9ebc5d435853289d2f582c0173d7d"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getHypersensibility"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a64bd8bd51436f437ebe22cd6ae9bbbcf"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getIdEpisode"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#ae7214640c23a9823575c8bbc7491b2bd"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getMedication"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#ab1f3693ff1e962f8a81188b2f8562105"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getNausea"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#afd3e14b28665f4bf31bf35561a1bbf74"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getOtherSymp"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a7e1e7a3dc17b78383ff07fab642e8c5c"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getSeverity"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a1f0f3f8ff514113e1ba6222e14678603"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getSideHeadache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#aaca177e5657f7b02dc31eaa7f682be0e"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getTriggers"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#adde0371e552bfd3d8264520e8dd1c8f7"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="setAura"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a7f16a98f6dbf3687085bd05fe755835f"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="setDateEnd"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#ad34c220dc2c7673b3374921b18cd85e5"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="setDateStart"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a18cf1e00ca7f073c9e802f7c2be6e55d"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="setDizziness"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#ab279a85405eff579e8a80848e12c168e"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="setHypersensibility"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#aa2269de62481ab369bbf2f566a675c78"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="setIdEpisode"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a3aafd7adc21ca3337dd6f8af369de76d"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="setMedication"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#aec668e810476d60feab1f353b2546f1c"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="setNausea"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a88c313d149bf4179eb0a51f291168975"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="setOtherSymp"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a6ca5713837d1294361673f85dc26d4b8"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="setSeverity"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a3dfc122e4f90bbdc061cda2f95664f2d"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="setSideHeadache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#afcfd458ebff651a451270c202c69aa35"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="setTriggers"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a6e2e628e556805d4b7043d4bdfc8722c"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="toString"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a94e4c74f6a726081445d438bd4dd92be"><param name="ImageNumber" value="11"></OBJECT>
+              </UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="Headache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="Headache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#ab0b51b285db4f7df9eecd63e4669bce4"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="Headache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a83629b66d5ca701af0cac1f6c9bcc19a"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="addEpisodeInList"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a80b7a5b08a6ff14669093659c0a774b6"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getEndHeadache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a0a046d5355891fce23e0b612714bdf86"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getIdHeadache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a878d50f026aadf3775fb0f911e2993aa"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getLstEpisodes"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a4f75601d8158b8a62da12f5e82443c15"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getNbEpisodes"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a1749c8284d55c7cb15031e1fa299c737"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="getStartHeadache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#ae83e5bab5ad0a3d5d8401d4af92006c8"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="setEndHeadache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a4fa174e7fd71b83295b67f891d1f04ca"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="setIdHeadache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a5dad1f8499b7ce1614054883e3ed920e"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="setLstEpisodes"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a2218c4bfcc236b46367d28b3d330926c"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="setNbEpisodes"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a9ad33362ed759962e396765caee856b2"><param name="ImageNumber" value="11"></OBJECT>
+              <LI><OBJECT type="text/sitemap"><param name="Name" value="setStartHeadache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a9310096a4447185a242f3a851d1d32b8"><param name="ImageNumber" value="11"></OBJECT>
+              </UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="SerializeToXML"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_serialize_to_x_m_l.html"><param name="ImageNumber" value="1"></OBJECT>
+              <UL>
+              </UL>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="HeadacheDiaryApplication"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1_headache_diary_application.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            <LI><OBJECT type="text/sitemap"><param name="Name" value="start"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1_headache_diary_application.html#af75762cc827d84fdd8275fa3249e5f90"><param name="ImageNumber" value="11"></OBJECT>
+            </UL>
+          <LI><OBJECT type="text/sitemap"><param name="Name" value="com.example.myheadachediary.tools.LauncherApp"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1_launcher_app.html"><param name="ImageNumber" value="1"></OBJECT>
+            <UL>
+            </UL>
+          </UL>
+        </UL>
+      </UL>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Class Index"><param name="Local" value="classes.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Class Hierarchy"><param name="Local" value="hierarchy.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.example.myheadachediary.model.Diary"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_diary.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.example.myheadachediary.view.FXMLMyDiaryController"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.example.myheadachediary.tools.LauncherApp"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1_launcher_app.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.example.myheadachediary.tools.SerializeToXML"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_serialize_to_x_m_l.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Application"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="com.example.myheadachediary.view.HeadacheDiaryApplication"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1_headache_diary_application.html"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Serializable"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="com.example.myheadachediary.model.Episode"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="com.example.myheadachediary.model.Headache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Class Members"><param name="Local" value="functions.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="All"><param name="Local" value="functions.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Functions"><param name="Local" value="functions_func.html"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  </UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Files"><param name="Local" value="files.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="File List"><param name="Local" value="files.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="FXMLMyDiaryController.java"><param name="Local" value="_f_x_m_l_my_diary_controller_8java.html"><param name="ImageNumber" value="11"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="com.example.myheadachediary.view.FXMLMyDiaryController"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="checkBokReboot"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller.html#a1c3945604348b94fcb4ede0ec3e01ca8"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="onClickAddHeadache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller.html#a32c7fecc264106e2737c555ad383ca2d"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="onClickFillLastestSettings"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1controler_1_1_f_x_m_l_my_diary_controller.html#a693a9ec4df9ba3d05918a25eb0650116"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="HeadacheDiaryApplication.java"><param name="Local" value="_headache_diary_application_8java.html"><param name="ImageNumber" value="11"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="com.example.myheadachediary.view.HeadacheDiaryApplication"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1_headache_diary_application.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="start"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1_headache_diary_application.html#af75762cc827d84fdd8275fa3249e5f90"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="com.example.myheadachediary.tools.LauncherApp.java"><param name="Local" value="_launcher_app_8java.html"><param name="ImageNumber" value="11"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="com.example.myheadachediary.tools.LauncherApp"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1_launcher_app.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        </UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Diary.java"><param name="Local" value="_diary_8java.html"><param name="ImageNumber" value="11"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="com.example.myheadachediary.model.Diary"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_diary.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        </UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Episode.java"><param name="Local" value="_episode_8java.html"><param name="ImageNumber" value="11"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="com.example.myheadachediary.model.Episode"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Episode"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a005c7820bdd87094c211fc8e18616260"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Episode"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a104e31d36e61085a95c8c3f9010c2108"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="getAura"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a49d0ef6ac97121f97df6ecae36ced893"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="getDateEnd"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a1c528a93301534e633f8aab25a44095c"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="getDateStart"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a93cc383e6bdb206e003902ccd89d3290"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="getDizziness"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#accc9ebc5d435853289d2f582c0173d7d"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="getHypersensibility"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a64bd8bd51436f437ebe22cd6ae9bbbcf"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="getIdEpisode"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#ae7214640c23a9823575c8bbc7491b2bd"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="getMedication"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#ab1f3693ff1e962f8a81188b2f8562105"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="getNausea"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#afd3e14b28665f4bf31bf35561a1bbf74"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="getOtherSymp"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a7e1e7a3dc17b78383ff07fab642e8c5c"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="getSeverity"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a1f0f3f8ff514113e1ba6222e14678603"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="getSideHeadache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#aaca177e5657f7b02dc31eaa7f682be0e"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="getTriggers"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#adde0371e552bfd3d8264520e8dd1c8f7"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="setAura"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a7f16a98f6dbf3687085bd05fe755835f"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="setDateEnd"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#ad34c220dc2c7673b3374921b18cd85e5"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="setDateStart"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a18cf1e00ca7f073c9e802f7c2be6e55d"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="setDizziness"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#ab279a85405eff579e8a80848e12c168e"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="setHypersensibility"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#aa2269de62481ab369bbf2f566a675c78"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="setIdEpisode"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a3aafd7adc21ca3337dd6f8af369de76d"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="setMedication"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#aec668e810476d60feab1f353b2546f1c"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="setNausea"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a88c313d149bf4179eb0a51f291168975"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="setOtherSymp"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a6ca5713837d1294361673f85dc26d4b8"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="setSeverity"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a3dfc122e4f90bbdc061cda2f95664f2d"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="setSideHeadache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#afcfd458ebff651a451270c202c69aa35"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="setTriggers"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a6e2e628e556805d4b7043d4bdfc8722c"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="toString"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_episode.html#a94e4c74f6a726081445d438bd4dd92be"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Headache.java"><param name="Local" value="_headache_8java.html"><param name="ImageNumber" value="11"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="com.example.myheadachediary.model.Headache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Headache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#ab0b51b285db4f7df9eecd63e4669bce4"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="Headache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a83629b66d5ca701af0cac1f6c9bcc19a"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="addEpisodeInList"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a80b7a5b08a6ff14669093659c0a774b6"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="getEndHeadache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a0a046d5355891fce23e0b612714bdf86"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="getIdHeadache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a878d50f026aadf3775fb0f911e2993aa"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="getLstEpisodes"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a4f75601d8158b8a62da12f5e82443c15"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="getNbEpisodes"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a1749c8284d55c7cb15031e1fa299c737"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="getStartHeadache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#ae83e5bab5ad0a3d5d8401d4af92006c8"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="setEndHeadache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a4fa174e7fd71b83295b67f891d1f04ca"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="setIdHeadache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a5dad1f8499b7ce1614054883e3ed920e"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="setLstEpisodes"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a2218c4bfcc236b46367d28b3d330926c"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="setNbEpisodes"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a9ad33362ed759962e396765caee856b2"><param name="ImageNumber" value="11"></OBJECT>
+        <LI><OBJECT type="text/sitemap"><param name="Name" value="setStartHeadache"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_headache.html#a9310096a4447185a242f3a851d1d32b8"><param name="ImageNumber" value="11"></OBJECT>
+        </UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="SerializeToXML.java"><param name="Local" value="_serialize_to_x_m_l_8java.html"><param name="ImageNumber" value="11"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="com.example.myheadachediary.tools.SerializeToXML"><param name="Local" value="classcom_1_1example_1_1myheadachediary_1_1model_1_1_serialize_to_x_m_l.html"><param name="ImageNumber" value="1"></OBJECT>
+        <UL>
+        </UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="module-info.java"><param name="Local" value="module-info_8java.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      </UL>
+    </UL>
+  </UL>
+</UL>
+</BODY>
+</HTML>

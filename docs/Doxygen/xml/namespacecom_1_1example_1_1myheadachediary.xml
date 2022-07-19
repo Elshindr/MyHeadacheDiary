@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="namespacecom_1_1example_1_1myheadachediary" kind="namespace" language="Java">
+    <compoundname>com::example::myheadachediary</compoundname>
+    <innerclass refid="classcom_1_1example_1_1myheadachediary_1_1_headache_diary_application" prot="public">com::example::myheadachediary::HeadacheDiaryApplication</innerclass>
+    <innerclass refid="classcom_1_1example_1_1myheadachediary_1_1_launcher_app" prot="public">com::example::myheadachediary::com.example.myheadachediary.tools.LauncherApp</innerclass>
+    <innernamespace refid="namespacecom_1_1example_1_1myheadachediary_1_1controler">com::example::myheadachediary::controler</innernamespace>
+    <innernamespace refid="namespacecom_1_1example_1_1myheadachediary_1_1model">com::example::myheadachediary::model</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/HeadacheDiaryApplication.java" line="1" column="15"/>
+  </compounddef>
+</doxygen>

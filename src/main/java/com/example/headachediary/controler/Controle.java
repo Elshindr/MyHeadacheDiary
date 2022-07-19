@@ -120,12 +120,16 @@ public class Controle {
         return lstHeadaches;
     }
 
-    public List<String>  getLastestData(){
+    /**
+     * Method to find averages data
+     * @return List<String>
+     */
+    public List<String>  getAverageData(){
         List<String> arrLastestData = new ArrayList<>();
         Episode lastEpisode = lstEpisodes.get(lstEpisodes.size() - 1);
+
         if(lstEpisodes.size() != 0) {
             arrLastestData.add(lastEpisode.getLstTriggers().toString().replaceAll("[\\[\\]]",""));
-
         }
         return arrLastestData;
     }
@@ -136,13 +140,6 @@ public class Controle {
      */
     public static void saveInDiary()  {
         try {
-            for(Headache hd : lstHeadaches){
-                //  System.out.println("Controle :: FOR :: headache nombre episode " + hd.getNbEpisodes());
-                for(Episode ep: hd.getLstEpisodes()){
-                    //     System.out.println("Controle :: FOR :: episode lstSensi " + ep.getLstSensi());
-                }
-
-            }
             SerializeToXML.saveToXML(lstHeadaches);
         } catch (IOException e) {
             e.printStackTrace();

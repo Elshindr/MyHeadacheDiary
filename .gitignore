@@ -36,5 +36,7 @@ build/
 
 ### Mac OS ###
 .DS_Store
-.idea/artifacts/MyHeadacheDiary_jar.xml
-out/artifacts/HeadacheDiary_jar/MyHeadacheDiary_XML.xml
+/.idea/
+/.mvn/
+/out/
+/target/

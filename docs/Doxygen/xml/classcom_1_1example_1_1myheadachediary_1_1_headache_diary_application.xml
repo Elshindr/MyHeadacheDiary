@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="classcom_1_1example_1_1myheadachediary_1_1_headache_diary_application" kind="class" language="Java" prot="public">
+    <compoundname>com::example::myheadachediary::HeadacheDiaryApplication</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Application</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1_headache_diary_application_1af75762cc827d84fdd8275fa3249e5f90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.example.myheadachediary.view.MainMyDiaryApplication.start</definition>
+        <argsstring>(Stage stage)</argsstring>
+        <name>start</name>
+        <param>
+          <type>Stage</type>
+          <declname>stage</declname>
+        </param>
+        <exceptions> throws IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/HeadacheDiaryApplication.java" line="11" column="17" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/HeadacheDiaryApplication.java" bodystart="11" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcom_1_1example_1_1myheadachediary_1_1_headache_diary_application_1abe661964777149cd18e235042950d6b3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void com.example.myheadachediary.view.MainMyDiaryApplication.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/HeadacheDiaryApplication.java" line="23" column="24" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/HeadacheDiaryApplication.java" bodystart="23" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>com.example.myheadachediary.view.MainMyDiaryApplication</label>
+        <link refid="classcom_1_1example_1_1myheadachediary_1_1_headache_diary_application"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Application</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>com.example.myheadachediary.view.MainMyDiaryApplication</label>
+        <link refid="classcom_1_1example_1_1myheadachediary_1_1_headache_diary_application"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Application</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/HeadacheDiaryApplication.java" line="9" column="7" bodyfile="C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/src/main/java/com/example/myheadachediary/HeadacheDiaryApplication.java" bodystart="9" bodyend="26"/>
+    <listofallmembers>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1_headache_diary_application_1abe661964777149cd18e235042950d6b3" prot="public" virt="non-virtual"><scope>com::example::myheadachediary::HeadacheDiaryApplication</scope><name>main</name></member>
+      <member refid="classcom_1_1example_1_1myheadachediary_1_1_headache_diary_application_1af75762cc827d84fdd8275fa3249e5f90" prot="public" virt="non-virtual"><scope>com::example::myheadachediary::HeadacheDiaryApplication</scope><name>start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
