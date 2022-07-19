@@ -1,14 +1,40 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-MyHeadacheDiary_XML.xml
-.idea/sonarlint/issuestore/1/e/1e0e889595e6be67fa0f7c3bbb7742d8a6df14ca
-.idea/sonarlint/issuestore/4/e/4e23f5a0efa33fb95bee3ec7a21871b0fdd1a3f0
-.idea/sonarlint/issuestore/d/c/dc5d0ca0dc88521832d185405b188cf5681b7f74
-*.pb
-*.xml
-.idea/libraries/download.xml
-.idea/misc.xml
-.idea/sonarlint/issuestore/1/c/1c89a5491fbfda3fb050196d6a239f20200296e7
-/target/
-/out/
-/.idea/
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
 
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
+.idea/artifacts/MyHeadacheDiary_jar.xml
+out/artifacts/HeadacheDiary_jar/MyHeadacheDiary_XML.xml
