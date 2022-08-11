@@ -8,6 +8,7 @@ target/
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
+/resources/com/example/headachediary/*.png
 *.iws
 *.iml
 *.ipr
@@ -40,7 +41,7 @@ build/
 /.mvn/
 /out/
 /target/
-*.png
+
 mvnw
 mvnw.cmd
 /.idea/
