@@ -1,0 +1,9 @@
+
+e
+java:S20953"HUse try-with-resources or close this "XMLDecoder" in a "finally" clause.(¥¬ÁÙ8ÄÆ©¡0
+P
+java:S1118":Add a private constructor to hide the implicit public one.(§é†×
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(÷¼Ë«úÿÿÿÿ
+U	java:S1067"9Replace this use of System.out or System.err by a logger.(üÇ“ø8‹ğµŒ£0
+S
+java:S1068"=Remove this unused "SERIALIZED_FILE_NAME_JSON" private field.(é‚èá

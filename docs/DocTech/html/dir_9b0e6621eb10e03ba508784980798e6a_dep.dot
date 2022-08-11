@@ -1,0 +1,15 @@
+digraph "C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/HeadacheDiary/src"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  compound=true
+  subgraph clusterdir_6008746d3920b401b432b6771af60dab {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", style="filled,dashed,", label="HeadacheDiary", fontname="Helvetica", fontsize="10", URL="dir_6008746d3920b401b432b6771af60dab.html"]
+  subgraph clusterdir_9b0e6621eb10e03ba508784980798e6a {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", style="filled,bold,", label="", fontname="Helvetica", fontsize="10", URL="dir_9b0e6621eb10e03ba508784980798e6a.html"]
+    dir_9b0e6621eb10e03ba508784980798e6a [shape=plaintext, label="src"];
+  dir_795aaa2a52e15b013942ccd800067b98 [shape=box, label="main", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_795aaa2a52e15b013942ccd800067b98.html"];
+  }
+  }
+}

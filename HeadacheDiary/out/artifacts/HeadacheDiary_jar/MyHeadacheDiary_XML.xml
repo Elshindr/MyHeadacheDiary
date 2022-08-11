@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="18.0.1.1" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="com.example.headachediary.model.Headache" id="Headache0">
+    <void class="com.example.headachediary.model.Headache" method="getField">
+     <string>nbEpisodes</string>
+     <void method="set">
+      <object idref="Headache0"/>
+      <int>1</int>
+     </void>
+    </void>
+    <void property="endHeadache">
+     <string>17-07-2022 23:59</string>
+    </void>
+    <void property="idHeadache">
+     <int>1</int>
+    </void>
+    <void property="lstEpisodes">
+     <void method="add">
+      <object class="com.example.headachediary.model.Episode" id="Episode0">
+       <void property="comment">
+        <string></string>
+       </void>
+       <void property="cvsMed">
+        <object class="javafx.scene.canvas.Canvas">
+         <void property="height">
+          <double>80.0</double>
+         </void>
+         <void property="layoutX">
+          <double>-1.6</double>
+         </void>
+         <void property="layoutY">
+          <double>4.0</double>
+         </void>
+         <void property="width">
+          <double>145.0</double>
+         </void>
+        </object>
+       </void>
+       <void property="dateEnd">
+        <string>17-07-2022 23:59</string>
+       </void>
+       <void property="dateStart">
+        <string>17-07-2022 17:32</string>
+       </void>
+       <void property="idEpisode">
+        <int>1</int>
+       </void>
+       <void property="lstTriggers">
+        <void method="add">
+         <string>Light</string>
+        </void>
+        <void method="add">
+         <string>Period</string>
+        </void>
+       </void>
+       <void property="mapMed">
+        <object class="java.util.HashMap">
+         <void method="put">
+          <string>Triptan</string>
+          <int>2</int>
+         </void>
+        </object>
+       </void>
+       <void property="mapSymp">
+        <object class="java.util.HashMap">
+         <void method="put">
+          <string>Dizziness</string>
+          <string>None</string>
+         </void>
+         <void method="put">
+          <string>Side</string>
+          <string>Left</string>
+         </void>
+         <void method="put">
+          <string>Severity</string>
+          <string>Moderate</string>
+         </void>
+         <void method="put">
+          <string>Nausea</string>
+          <string>None</string>
+         </void>
+         <void method="put">
+          <string>Aura</string>
+          <string>Mild</string>
+         </void>
+        </object>
+       </void>
+       <void property="strDates">
+        <string>17-07-2022 17:32
+17-07-2022 23:59</string>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void property="startHeadache">
+     <string>17-07-2022 17:32</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="com.example.headachediary.model.Headache" id="Headache1">
+    <void class="com.example.headachediary.model.Headache" method="getField">
+     <string>nbEpisodes</string>
+     <void method="set">
+      <object idref="Headache1"/>
+      <int>1</int>
+     </void>
+    </void>
+    <void property="endHeadache">
+     <string>18-07-2022 16:00</string>
+    </void>
+    <void property="idHeadache">
+     <int>2</int>
+    </void>
+    <void property="lstEpisodes">
+     <void method="add">
+      <object class="com.example.headachediary.model.Episode">
+       <void property="comment">
+        <string>sport après doliprane</string>
+       </void>
+       <void property="cvsMed">
+        <object class="javafx.scene.canvas.Canvas">
+         <void property="height">
+          <double>80.0</double>
+         </void>
+         <void property="width">
+          <double>145.0</double>
+         </void>
+        </object>
+       </void>
+       <void property="dateEnd">
+        <string>18-07-2022 16:00</string>
+       </void>
+       <void property="dateStart">
+        <string>18-07-2022 09:30</string>
+       </void>
+       <void property="idEpisode">
+        <int>1</int>
+       </void>
+       <void property="mapMed">
+        <object class="java.util.HashMap">
+         <void method="put">
+          <string>Paracetamol</string>
+          <int>500</int>
+         </void>
+        </object>
+       </void>
+       <void property="mapSymp">
+        <object class="java.util.HashMap">
+         <void method="put">
+          <string>Dizziness</string>
+          <string>None</string>
+         </void>
+         <void method="put">
+          <string>Side</string>
+          <string>Both</string>
+         </void>
+         <void method="put">
+          <string>Severity</string>
+          <string>Mild</string>
+         </void>
+         <void method="put">
+          <string>Nausea</string>
+          <string>None</string>
+         </void>
+         <void method="put">
+          <string>Aura</string>
+          <string>None</string>
+         </void>
+        </object>
+       </void>
+       <void property="strDates">
+        <string>18-07-2022 09:30
+18-07-2022 16:00</string>
+       </void>
+      </object>
+     </void>
+    </void>
+    <void property="startHeadache">
+     <string>18-07-2022 09:30</string>
+    </void>
+   </object>
+  </void>
+ </object>
+<void class="com.example.headachediary.model.Episode" id="Field0" method="getField">
+ <string>lstSensi</string>
+ <void id="ArrayList0" method="get">
+  <object idref="Episode0"/>
+  <void method="add">
+   <string>Sound</string>
+  </void>
+  <void method="add">
+   <string>Movement</string>
+  </void>
+  <void method="add">
+   <string>Light</string>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList0"/>
+</java>

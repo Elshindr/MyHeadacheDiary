@@ -1,0 +1,18 @@
+digraph "C:/Users/Ydrani/Programmation/Java/MyHeadacheDiary/HeadacheDiary/src/main/java/com/example/headachediary"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  compound=true
+  subgraph clusterdir_2eccd7d0dcacdf71bb59223f8a2f9d03 {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", style="filled,dashed,", label="example", fontname="Helvetica", fontsize="10", URL="dir_2eccd7d0dcacdf71bb59223f8a2f9d03.html"]
+  subgraph clusterdir_cda661a52034550208f7ce92b69f5a62 {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", style="filled,bold,", label="", fontname="Helvetica", fontsize="10", URL="dir_cda661a52034550208f7ce92b69f5a62.html"]
+    dir_cda661a52034550208f7ce92b69f5a62 [shape=plaintext, label="headachediary"];
+  dir_1890d13e960c8eb5246a75a97e709471 [shape=box, label="controler", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_1890d13e960c8eb5246a75a97e709471.html"];
+  dir_ee08c570083a19110de933ff55344376 [shape=box, label="model", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_ee08c570083a19110de933ff55344376.html"];
+  dir_ef9aa1db556abe9e99ee6e217420804a [shape=box, label="tools", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_ef9aa1db556abe9e99ee6e217420804a.html"];
+  dir_2a33144d59f23593ec801162518e7283 [shape=box, label="view", style="filled,", fillcolor="#a2b4d6", color="grey25", URL="dir_2a33144d59f23593ec801162518e7283.html"];
+  }
+  }
+}

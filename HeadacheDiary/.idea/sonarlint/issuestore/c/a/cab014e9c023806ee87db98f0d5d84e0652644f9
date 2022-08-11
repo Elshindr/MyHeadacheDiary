@@ -1,0 +1,22 @@
+
+e
+java:S2259/"JA "NullPointerException" could be thrown; "lstHeadaches" is nullable here.(ù€×æúÿÿÿÿ
+a
+java:S2259B"FA "NullPointerException" could be thrown; "headache" is nullable here.(Á€†›ùÿÿÿÿ
+j
+java:S2259˜"NA "NullPointerException" could be thrown; "getLastHeadache()" can return null.(’ßè€şÿÿÿÿ
+r
+java:S1450"WRemove the "headache" field and declare it as a local variable in the relevant methods.(À•öûÿÿÿÿ
+Q
+java:S2696?"6Make the enclosing method "static" or remove this set.(« â¿ùÿÿÿÿ
+Q
+java:S2696C"6Make the enclosing method "static" or remove this set.(ÂÅşŸüÿÿÿÿ
+H
+java:S1168N"+Return an empty collection instead of null.(¥¹ï8¬™üŒ£0
+X	java:S125M"<This block of commented-out lines of code should be removed.(ÊñÏ„8æûŒ£0
+T
+java:S1155^">Use isEmpty() to check whether the collection is empty or not.(£õç
+U
+java:S1155¦">Use isEmpty() to check whether the collection is empty or not.(Ôé›Õ
+@
+java:S1068"*Remove this unused "logger" private field.(ğÈó€

@@ -40,3 +40,7 @@ build/
 /.mvn/
 /out/
 /target/
+*.png
+mvnw
+mvnw.cmd
+/.idea/
